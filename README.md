@@ -92,8 +92,6 @@ Aquest apartat s’anirà actualitzant a mesura que es publiquin les diferents t
 - Tasca 5 -- [Aquí](/Projecte4/tasca_05/)
 - Tasca 6 -- [Aquí](/Projecte4/tasca_06/)
 - Tasca 7 -- [Aquí](/Projecte4/tasca_07/)
-- Tasca 8 -- [Aquí](/Projecte4/tasca_08/)
-
 
 ---
 
