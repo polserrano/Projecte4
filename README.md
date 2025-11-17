@@ -85,6 +85,14 @@ I ho faràs per la porta gran.**
 ## 📁 Tasques  
 Aquest apartat s’anirà actualitzant a mesura que es publiquin les diferents tasques del projecte.
 
+- Tasca 1 -- [Aquí](/Projecte4/tasca_01/)
+- Tasca 2 -- [Aquí](/Projecte4/tasca_02/)
+- Tasca 3 -- [Aquí](/Projecte4/tasca_03/)
+- Tasca 4 -- [Aquí](/Projecte4/tasca_04/)
+- Tasca 5 -- [Aquí](/Projecte4/tasca_05/)
+- Tasca 6 -- [Aquí](/Projecte4/tasca_06/)
+- Tasca 7 -- [Aquí](/Projecte4/tasca_07/)
+- Tasca 8 -- [Aquí](/Projecte4/tasca_08/)
 
 
 ---
