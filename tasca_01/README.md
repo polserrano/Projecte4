@@ -34,6 +34,6 @@ L’objectiu final és garantir que les dades crítiques estiguin protegides, ac
 ---
 ## Documentació a entregar:
 
-- Individual
-- Parelles
-- Grup
+- Còpies de seguretat. Estudi cas client, INDIVIDUAL
+- Còpies de seguretat. Estudi cas client, PARELLES
+- Còpies de seguretat. Estudi cas client, GRUP
