@@ -114,5 +114,9 @@ Els alumnes aprendran a:
 - Definir **promoció i canals de comunicació**  
 - Seleccionar **canals de distribució**  
 - Elaborar un **màrqueting mix complet**  
-- Crear un **pla d’empresa bàsic i comunicar-lo en format vídeo**  
+- Crear un **pla d’empresa bàsic i comunicar-lo en format vídeo**
+
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
 
