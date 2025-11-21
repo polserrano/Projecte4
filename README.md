@@ -85,13 +85,22 @@ I ho faràs per la porta gran.**
 ## 📁 Tasques  
 Aquest apartat s’anirà actualitzant a mesura que es publiquin les diferents tasques del projecte.
 
-- Tasca 1 -- [Aquí](/Projecte4/tasca_01/)
-- Tasca 2 -- [Aquí](/Projecte4/tasca_02/)
-- Tasca 3 -- [Aquí](/Projecte4/tasca_03/)
-- Tasca 4 -- [Aquí](/Projecte4/tasca_04/)
-- Tasca 5 -- [Aquí](/Projecte4/tasca_05/)
-- Tasca 6 -- [Aquí](/Projecte4/tasca_06/)
-- Tasca 7 -- [Aquí](/Projecte4/tasca_07/)
+- Tasca 1 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_01)
+- Tasca 2 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_02)
+- Tasca 3 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_03)
+- Tasca 4 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_04)
+- Tasca 5 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_05)
+- Tasca 6 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_06)
+- Tasca 7 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_07)
+- Tasca 8 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_08)
+- Tasca 9 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_09)
+- Tasca 10 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_10)
+- Tasca 11 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_11)
+- Tasca 12 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_12)
+- Tasca 13 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_13)
+- Tasca 14 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_14)
+- Tasca 15 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_15)
+- Tasca 16 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_16)
 
 ---
 
