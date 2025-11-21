@@ -24,3 +24,7 @@ Per validar els coneixements adquirits, es realitzarà una **prova pràctica** o
 🔗 **Enllaços útils:**
 - 📄 [Desenvolupament i solució de la tasca – solucio.md](solucio.md)
 
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
+
