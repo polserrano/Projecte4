@@ -1,4 +1,5 @@
 # DRP: Còpies de seguretat (GRUP)
+Aran Perez, Pau Lopez, Pau Constanseu i Pol Serrano
 
 ## Introducció
 
