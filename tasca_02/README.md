@@ -21,3 +21,7 @@ Es crearà una guia tècnica utilitzant **Duplicity** i **cron** per automatitza
 
 🔗 **Enllaços útils:**
 - 📄 [Guia completa de la solució – solucio.md](solucio.md)
+
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
