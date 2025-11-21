@@ -28,3 +28,7 @@ Un cop finalitzat l’entrenament, haureu de superar un **examen pràctic exigen
 
 🔗 **Enllaços útils:**
 - 📄 [Guia completa i solució de la pràctica – solucio.md](solucio.md)
+
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
