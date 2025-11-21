@@ -16,3 +16,7 @@ Prepareu-vos per demostrar la vostra capacitat de **relacionar teoria i aplicaci
 
 🔗 **Enllaços útils:**
 - 📄 [Material de repàs i solucions – solucio.md](solucio.md)  
+
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
