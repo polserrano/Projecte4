@@ -34,6 +34,6 @@ L’objectiu final és garantir que les dades crítiques estiguin protegides, ac
 ---
 ## Documentació a entregar:
 
-- Còpies de seguretat. Estudi cas client, INDIVIDUAL
+- [Còpies de seguretat. Estudi cas client, INDIVIDUAL](https://github.com/polserrano/Projecte4/blob/main/tasca_01/DRP%3A%20c%C3%B2pies%20de%20seguretat.%20Estudi%20cas%20client%20(GRUP).md)
 - Còpies de seguretat. Estudi cas client, PARELLES
 - Còpies de seguretat. Estudi cas client, GRUP
