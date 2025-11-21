@@ -43,3 +43,6 @@ A través de la seva aplicació, es garanteix que les dades més rellevants de l
 
 L’esquema 3-2-1 és una estratègia eficaç i pràctica per assegurar la protecció de les dades crítiques de qualsevol empresa. Disposar de tres còpies de les dades, utilitzar almenys dos tipus de mitjans i mantenir una còpia fora de lloc permet reduir significativament els riscos associats a la pèrdua d’informació i garantir la continuïtat del negoci.
 
+---
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main/tasca_01)
+
