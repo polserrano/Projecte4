@@ -19,3 +19,7 @@ Aquesta documentació haurà de ser **extremadament clara i precisa**, ja que la
 🔗 **Enllaços útils:**
 - 📄 [Guia completa de la PoC - solucio.md](solucio.md)
 
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
+
