@@ -22,3 +22,7 @@ La documentació haurà de seguir com a referència les activitats indicades a l
 🔗 **Enllaços útils:**
 - 📄 [Guia completa i solució de la PoC – solucio.md](solucio.md)
 
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
+
