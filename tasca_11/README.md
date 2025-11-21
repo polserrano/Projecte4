@@ -20,3 +20,6 @@ Dominar Figma permetrà dissenyar i prototipar de manera eficient, creant experi
 🔗 **Enllaços útils:**
 - 📄 [Guia completa i solució de la pràctica – solucio.md](solucio.md)  
 
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
