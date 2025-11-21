@@ -95,3 +95,6 @@ L’estratègia proposada proporciona un pla de backup robust i escalable, combi
 
 Mitjançant aquesta planificació, l’empresa disposa d’un sistema de recuperació fiable que garanteix la continuïtat operativa, redueix la possibilitat de pèrdua de dades i compleix amb els requisits de seguretat i normativa vigent.
 
+---
+- [Tornar Enrere](/Projecte4/tasca_01)
+
