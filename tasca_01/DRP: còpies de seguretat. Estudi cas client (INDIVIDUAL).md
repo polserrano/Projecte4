@@ -1,4 +1,5 @@
 # DRP: Còpies de seguretat
+Pol Serrano Aromí
 
 ## Introducció a la tasca
 
