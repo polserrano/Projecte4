@@ -15,3 +15,6 @@ Aquesta tasca ofereix una **visió completa del recorregut de l’usuari**, des 
 ## 🌐 Recursos i exemples
 - **Presentació de la classe magistral:** [Enllaç a la presentació](solucio.md)  
 
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
