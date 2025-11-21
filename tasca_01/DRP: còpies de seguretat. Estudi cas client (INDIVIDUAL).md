@@ -110,3 +110,6 @@ L’objectiu és garantir la recuperació ràpida i segura de les dades davant q
 
 Un pla de còpies de seguretat ben estructurat és essencial per assegurar la continuïtat del negoci. Prioritzar les dades més crítiques, establir una periodicitat adequada i aplicar correctament la regla 3-2-1 amb mitjans i ubicacions diferenciades permet protegir la informació davant pèrdues accidentals, fallades tècniques o desastres, garantint així la seguretat i disponibilitat de les dades empresarials.
 
+---
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main/tasca_01)
+
