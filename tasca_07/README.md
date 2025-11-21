@@ -33,3 +33,7 @@ Aquestes guies seran essencials per garantir una experiència fluida, profession
 
 🔗 **Enllaços útils:**
 - 📄 [Guia completa de la solució – solucio.md](solucio.md)
+
+---
+
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
