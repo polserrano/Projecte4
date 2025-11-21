@@ -34,5 +34,9 @@ Les maquetes han de permetre **navegar** per tots els fluxos principals:
 
 ---
 
+- [Tornar Enrere](https://github.com/polserrano/Projecte4/tree/main)
+
+---
+
 🔗 **Enllaços útils:**
 - 📄 [Guia completa i solució de la tasca – solucio.md](solucio.md)  
