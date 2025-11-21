@@ -101,6 +101,10 @@ Aquest apartat s’anirà actualitzant a mesura que es publiquin les diferents t
 - Tasca 14 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_14)
 - Tasca 15 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_15)
 - Tasca 16 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/tasca_16)
+- Producte 1 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/producte_01)
+- Producte 2 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/producte_02)
+- Producte 3 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/producte_03)
+- Producte 4 -- [Aquí](https://github.com/polserrano/Projecte4/tree/main/producte_04)
 
 ---
 
