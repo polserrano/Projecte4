@@ -1,4 +1,6 @@
-**Accés Remot via SSH**  
+# **T05: Accés Remot via SSH**  
+- **Autor:** Pol Serrano Aromí
+- **Data:** 4/12/2025
 ---
 
 # 1. **Introducció:**
