@@ -34,7 +34,9 @@ S’ha de documentar el procés de connexió SSH utilitzant màquines virtuals, 
 
 **10\. Log in amb SSH Keys**
 
-**11\. Conclusió de la tasca**
+**11\. Servidor OpenSSH
+
+**12\. Conclusió de la tasca**
 
 ---
 
@@ -190,8 +192,9 @@ Finalment veiem que si intentem fer un ssh amb el servidor desde el client, no e
 ![imatge](/tasca_05/img/imatge_24.png)
 
 ----
-
-## 🔥 11. Conclusió de la tasca:
+## 🖱️ 11. Servidor OpenSSH
+----
+## 🔥 12. Conclusió de la tasca:
 
 En aquesta pràctica s’ha configurat un entorn de connexió remota segur entre un servidor Linux i un client Windows mitjançant SSH. S’han configurat correctament els adaptadors de xarxa, instal·lat i verificat el servei SSH, i aplicat restriccions d’accés per usuari. També s’ha creat un túnel SSH amb redirecció dinàmica i s’ha comprovat el seu funcionament amb Wireshark. Finalment, s’ha implementat l’autenticació per claus SSH, permetent iniciar sessió sense contrasenya. En conjunt, la pràctica ha servit per comprendre i aplicar els elements essencials de la gestió de connexions remotes segures.
 
