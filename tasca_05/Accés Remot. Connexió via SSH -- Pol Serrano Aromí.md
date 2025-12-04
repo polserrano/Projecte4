@@ -34,6 +34,8 @@ S’ha de documentar el procés de connexió SSH utilitzant màquines virtuals, 
 
 **10\. Log in amb SSH Keys**
 
+**11\. Conclusió de la tasca**
+
 ---
 
 # 3. **Configuracions prèvies (server):**
