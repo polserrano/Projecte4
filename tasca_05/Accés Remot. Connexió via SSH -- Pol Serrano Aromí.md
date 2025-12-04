@@ -1,7 +1,7 @@
 **Accés Remot via SSH**  
 ---
 
-1. # **Introducció:** {#introducció:}
+# 1. **Introducció:**
 
 La tasca consisteix a crear una Prova de Concepte (PoC) que servirà com a base per a la futura documentació interna de la consultora sobre gestió remota segura. Atès que els servidors dels clients i els interns estan en CPDs o al núvol, l’eina principal per administrar-los és SSH, l’estàndard segur per gestionar sistemes, especialment Linux.  
 L’objectiu és elaborar una guia impecable destinada als futurs becaris perquè puguin connectar-se de manera segura als sistemes de l’empresa sense necessitat d’una formació inicial extensa.
@@ -10,31 +10,31 @@ S’ha de documentar el procés de connexió SSH utilitzant màquines virtuals, 
 
 ---
 
-2. # **Índex:** {#índex:}
+2. # **Índex:**
 
-[**1\. Introducció:	1**](#introducció:)
+**1\. Introducció a la tasca**
 
-[**2\. Índex:	1**](#índex:)
+**2\. Índex**
 
-[**3\. Configuracions prèvies (server):	2**](#configuracions-prèvies-\(server\):)
+**3\. Configuracions prèvies (server)**
 
-[**4\. instalación del ssh	4**](#instalación-del-ssh)
+**4\. instalación del ssh**
 
-[**5\. Configuracions prèvies (client)	5**](#configuracions-prèvies-\(client\))
+**5\. Configuracions prèvies (client)**
 
-[**6\. Primeres connexions	6**](#primeres-connexions)
+**6\. Primeres connexions**
 
-[**7\. Configuracions SSH:	7**](#configuracions-ssh:)
+**7\. Configuracions SSH**
 
-[**8\. Túnel amb redirecció dinàmica:	11**](#túnel-amb-redirecció-dinàmica:)
+**8\. Túnel amb redirecció dinàmica**
 
-[**9\. Túnel amb redirecció dinàmica (WireShark):	12**](#túnel-amb-redirecció-dinàmica-\(wireshark\):)
+**9\. Túnel amb redirecció dinàmica (WireShark)**
 
-[**10\. Log in amb SSH Keys:	13**](#log-in-amb-ssh-keys:)
+**10\. Log in amb SSH Keys**
 
 ---
 
-3. # **Configuracions prèvies (server):** {#configuracions-prèvies-(server):}
+# 3. **Configuracions prèvies (server):**
 
 Primer de tot configurarem la vm del servidor, on hi posarem 2 adaptadors: un NAT i l’altre amfitrió perquè es pugui fer la connexió via ssh amb el client com diu la pràctica.
 
@@ -55,7 +55,7 @@ Seguidament farem uns updates i upgrades en els paquets que es troben desactuali
 
 ---
 
-4. # **instalación del ssh** {#instalación-del-ssh}
+# 4. **instalación del ssh**
 
 Un cop haguim configurat l’equip i actualitzat, instal·larem el servei ssh.
 
@@ -65,13 +65,13 @@ Un cop instal·lat, comprovem el seu estat si està activat.
 
 ![][image7]
 
-5. # **Configuracions prèvies (client)** {#configuracions-prèvies-(client)}
+# 5. **Configuracions prèvies (client)**
 
 Un tinguem al servidor, tot actualitzat, els adaptadors habilitats i configurats i l’ssh instal·lat, pasarem a crear una altre vm simulada a un client, en aquests cas ho farem amb windows 11\. També recordem, posar els adaptador igual que el server. 1r adaptador nat i el segon amfitrió.
 
 ![][image8]
 
-6. # **Primeres connexions** {#primeres-connexions}
+# 6. **Primeres connexions**
 
 El següent pas, obrirem PowerShell i intentarem connectar-nos amb el servidor via ssh. En la primera connexió com no ens reconeix la clau pública ens demana que li confirmem l’autenticitat.
 
@@ -81,7 +81,7 @@ Un cop confirmada l’autenticitat i posada la contrasenya del servidor estarem 
 
 ![][image10]
 
-7. # **Configuracions SSH:** {#configuracions-ssh:}
+# 7.  **Configuracions SSH:**
 
 Seguidament entrarem amb arxiu que es troba a: /etc/ssh/sshd\_config. On aqui podem permetre o no connexions de root  canviar el port de connexió, en el meu cas com diu la tasca he tocat només el permís de iniciar sessió com a root.
 
@@ -104,7 +104,7 @@ Un cop reiniciat el servei, i reiniciades les màquines intentarem connectar-nos
 ![][image15]  
 ![][image16]
 
-8. # **Túnel amb redirecció dinàmica:** {#túnel-amb-redirecció-dinàmica:}
+# 8. **Túnel amb redirecció dinàmica:**
 
 Ara configurarem un túnel amb redirecció dinàmica que utilitzarem per redirigir el trànsit.
 
@@ -113,7 +113,7 @@ Un cop posada la comanda, haurem de fer-ho manualment desde windows, entrarem a 
 
 ![][image18]
 
-9. # **Túnel amb redirecció dinàmica (WireShark):** {#túnel-amb-redirecció-dinàmica-(wireshark):}
+# 9. **Túnel amb redirecció dinàmica (WireShark):**
 
 Primer de tot entrarem a: [wireshark.org](http://wireshark.org), instal·larem el wireshark.
 
@@ -123,7 +123,7 @@ I comprovarem amb el wireshark que tot el trànsit que generem surt via SSH cap 
 
 ![][image20]
 
-10. # **Log in amb SSH Keys:** {#log-in-amb-ssh-keys:}
+# 10. **Log in amb SSH Keys:**
 
 En l’últim pas de la pràctica haurem de intentar iniciar sessió remota (ssh) sense utilitzar el password de l’equip que ens volem connectar. Això ens pot ajudar a l’automatització de gestió de màquines remotes.
 
