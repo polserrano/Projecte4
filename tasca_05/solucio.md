@@ -46,9 +46,9 @@ Primer de tot configurarem la vm del servidor, on hi posarem **2** adaptadors: u
 
 Seguidament, entrarem amb arxiu de configuració de xarxa:
 
-``bash
+```bash
 sudo nano /etc/netplan/50-cloud-init.yaml
-``
+```
 
 Per habilitar el **2n adaptador**, sinó el habilitem no funcionara el 2n adaptador, és com si no el tinguéssim activat.
 
@@ -56,9 +56,9 @@ Per habilitar el **2n adaptador**, sinó el habilitem no funcionara el 2n adapta
 
 Un cop habilitat el segon adaptador, introduirem un 
 
-``bash
+```bash
 sudo netplan apply
-``
+```
 
 I revisarem si l’hem configurat correctament, i així és, si ens dona una ip voldrà dir que està correctament configurat i funcionant.
 
@@ -66,9 +66,9 @@ I revisarem si l’hem configurat correctament, i així és, si ens dona una ip 
 
 Seguidament farem uns updates i upgrades: 
 
-``bash
+```bash
 sudo apt update && apt upgrade -y
-``
+```
 
 En els paquets que es troben desactualitzats en el sistema.
 
@@ -85,9 +85,9 @@ Un cop haguim configurat l’equip i actualitzat, instal·larem el servei **ssh*
 
 Un cop instal·lat, comprovem el seu estat si està activat amb un status:
 
-``bash
+```bash
 systemctl status ssh
-``
+```
 
 ![imatge](/tasca_05/img/imatge_7.png)
 
@@ -112,9 +112,9 @@ Un cop confirmada l’autenticitat i posada la contrasenya del servidor **estare
 
 Seguidament entrarem amb arxiu que es troba a: 
 
-``bash
+```bash
 sudo nano /etc/ssh/sshd_config
-``
+```
 
 On aqui podem permetre o no connexions de root canviar el port de connexió, en el meu cas com diu la tasca he tocat només el permís de iniciar sessió com a root.
 
@@ -130,14 +130,15 @@ Seguidament, configurarem perquè l’usuari **server21** pugui entrar a ssh com
 
 Farem un: 
 
-``bash
+```bash
 sudo systemctl restart shh
-``
+```
+
 també un: 
 
-``bash
+```bash
 sudo systemctl reload ssh
-``
+```
 
 Per aplicar els canvis correctament, jo recomano per si algun cas reiniciar les dues màquines, tant client com server, per acabar d’assegurar que els canvis s’han desat.
 
