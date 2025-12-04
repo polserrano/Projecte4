@@ -40,19 +40,37 @@ S’ha de documentar el procés de connexió SSH utilitzant màquines virtuals, 
 
 ## 🖥️ 3. **Configuracions prèvies (server):**
 
-Primer de tot configurarem la vm del servidor, on hi posarem 2 adaptadors: un NAT i l’altre amfitrió perquè es pugui fer la connexió via ssh amb el client com diu la pràctica.
+Primer de tot configurarem la vm del servidor, on hi posarem **2** adaptadors: un **NAT** i l’altre **amfitrió** perquè es pugui fer la connexió via ssh amb el client com diu la pràctica.
 
 ![imatge](/tasca_05/img/imatge_1.png)
 
-Seguidament, entrarem amb arxiu de configuració de xarxa per habilitar el 2n adaptador, sinó el habilitem no funcionara el 2n adaptador, és com si no el tinguéssim activat.
+Seguidament, entrarem amb arxiu de configuració de xarxa:
+
+``bash
+sudo nano /etc/netplan/50-cloud-init.yaml
+``
+
+Per habilitar el **2n adaptador**, sinó el habilitem no funcionara el 2n adaptador, és com si no el tinguéssim activat.
 
 ![imatge](/tasca_05/img/imatge_2.png)
 
-Un cop habilitat el segon adaptador, introduirem un ‘sudo netplan apply’ i revisarem si l’hem configurat correctament, i així és, si ens dona una ip voldrà dir que està correctament configurat i funcionant.
+Un cop habilitat el segon adaptador, introduirem un 
+
+``bash
+sudo netplan apply
+``
+
+I revisarem si l’hem configurat correctament, i així és, si ens dona una ip voldrà dir que està correctament configurat i funcionant.
 
 ![imatge](/tasca_05/img/imatge_3.png)
 
-Seguidament farem uns updates i upgrades en els paquets que es troben desactualitzats en el sistema.
+Seguidament farem uns updates i upgrades: 
+
+``bash
+sudo apt update && apt upgrade -y
+``
+
+En els paquets que es troben desactualitzats en el sistema.
 
 ![imatge](/tasca_05/img/imatge_4.png)
 ![imatge](/tasca_05/img/imatge_5.png)
@@ -61,61 +79,82 @@ Seguidament farem uns updates i upgrades en els paquets que es troben desactuali
 
 ## 📌 4. **instalación del ssh**
 
-Un cop haguim configurat l’equip i actualitzat, instal·larem el servei ssh.
+Un cop haguim configurat l’equip i actualitzat, instal·larem el servei **ssh**.
 
 ![imatge](/tasca_05/img/imatge_6.png)
 
-Un cop instal·lat, comprovem el seu estat si està activat.
+Un cop instal·lat, comprovem el seu estat si està activat amb un status:
+
+``bash
+systemctl status ssh
+``
 
 ![imatge](/tasca_05/img/imatge_7.png)
 
-
 ## 🖥️ 5. **Configuracions prèvies (client)**
 
-Un tinguem al servidor, tot actualitzat, els adaptadors habilitats i configurats i l’ssh instal·lat, pasarem a crear una altre vm simulada a un client, en aquests cas ho farem amb windows 11\. També recordem, posar els adaptador igual que el server. 1r adaptador nat i el segon amfitrió.
+Un tinguem al servidor, tot actualitzat, els adaptadors **habilitats** i configurats i l’ssh **instal·lat**, pasarem a crear una altre vm simulada a un client, en aquests cas ho farem amb windows 11. També recordem, posar els adaptador igual que el server. **1r adaptador nat i el segon amfitrió**.
 
 ![imatge](/tasca_05/img/imatge_8.png)
 
 
 ## 🧲 6. **Primeres connexions**
 
-El següent pas, obrirem PowerShell i intentarem connectar-nos amb el servidor via ssh. En la primera connexió com no ens reconeix la clau pública ens demana que li confirmem l’autenticitat.
+El següent pas, obrirem **PowerShell** i intentarem connectar-nos amb el servidor via **ssh**. En la primera connexió com no ens reconeix la clau pública ens demana que li confirmem l’autenticitat.
 
 ![imatge](/tasca_05/img/imatge_9.png)
 
-Un cop confirmada l’autenticitat i posada la contrasenya del servidor estarem dins.
+Un cop confirmada l’autenticitat i posada la contrasenya del servidor **estarem dins**.
 
 ![imatge](/tasca_05/img/imatge_10.png)
 
 ## 📟 7.  **Configuracions SSH:**
 
-Seguidament entrarem amb arxiu que es troba a: /etc/ssh/sshd\_config. On aqui podem permetre o no connexions de root  canviar el port de connexió, en el meu cas com diu la tasca he tocat només el permís de iniciar sessió com a root.
+Seguidament entrarem amb arxiu que es troba a: 
+
+``bash
+sudo nano /etc/ssh/sshd_config
+``
+
+On aqui podem permetre o no connexions de root canviar el port de connexió, en el meu cas com diu la tasca he tocat només el permís de iniciar sessió com a root.
 
 ![imatge](/tasca_05/img/imatge_11.png)
 
-Després com ens diu la tasca, crearem un nou usuari amb el nom de usuari2.
+Després com ens diu la tasca, **crearem un nou usuari** amb el nom de **usuari2**.
 
 ![imatge](/tasca_05/img/imatge_12.png)
 
-Seguidament, configurarem perquè l’usuari server21 pugui entrar a ssh com a usuari, pero usuari2 tingui el permís denegat, més endavant veurem com els canvis s'apliquen correctament.
+Seguidament, configurarem perquè l’usuari **server21** pugui entrar a ssh com a usuari, pero **usuari2** tingui el permís denegat, més endavant veurem com els canvis s'apliquen correctament.
 
 ![imatge](/tasca_05/img/imatge_13.png)
 
-Farem un: sudo systemctl restart shh, també un reload, per aplicar els canvis correctament, jo recomano per si algun cas reiniciar les dues màquines, tant client com server, per acabar d’assegurar que els canvis s’han desat.
+Farem un: 
+
+``bash
+sudo systemctl restart shh
+``
+també un: 
+
+``bash
+sudo systemctl reload ssh
+``
+
+Per aplicar els canvis correctament, jo recomano per si algun cas reiniciar les dues màquines, tant client com server, per acabar d’assegurar que els canvis s’han desat.
 
 ![imatge](/tasca_05/img/imatge_14.png)
 
-Un cop reiniciat el servei, i reiniciades les màquines intentarem connectar-nos amb els dos usuaris: server21 i usuari2, i un cop fetes les comprovacions veiem que el que ens diu l’enunciat s’ha complert correctament, ja que amb usuari2 ens denega el permís (no podem entrar) i amb server21 sí que ens deixa gràcies a afegir-lo com a usuari vàlid en el arxiu de configuració d’ssh
+Un cop reiniciat el servei, i reiniciades les màquines intentarem connectar-nos amb els dos usuaris: **server21** i **usuari2**, i un cop fetes les comprovacions veiem que el que ens diu l’enunciat s’ha complert correctament, ja que amb usuari2 ens denega el permís (no podem entrar) i amb server21 sí que ens deixa gràcies a afegir-lo com a usuari vàlid en el arxiu de configuració d’ssh.
 
 ![imatge](/tasca_05/img/imatge_15.png) 
 ![imatge](/tasca_05/img/imatge_16.png)
 
 ## 🕳️ 8. **Túnel amb redirecció dinàmica:**
 
-Ara configurarem un túnel amb redirecció dinàmica que utilitzarem per redirigir el trànsit.
+Ara configurarem un **túnel amb redirecció dinàmica** que utilitzarem per redirigir el trànsit.
 
 ![imatge](/tasca_05/img/imatge_17.png)
-Un cop posada la comanda, haurem de fer-ho manualment desde windows, entrarem a panel de control \> redes e internet \> Propiedades de internet \> Conexiones \> Configuración de LAN \> (deshabilitar l’opció ‘Detectar la configuración automáticamente’) Opciones avanzades. 
+
+Un cop posada la comanda, haurem de fer-ho manualment desde windows, entrarem a: **Panel de control > redes e internet > Propiedades de internet > Conexiones > Configuración de LAN > (deshabilitar l’opció ‘Detectar la configuración automáticamente’) Opciones avançades****. 
 
 ![imatge](/tasca_05/img/imatge_18.png)
 
@@ -125,23 +164,23 @@ Primer de tot entrarem a: [wireshark.org](http://wireshark.org), instal·larem e
 
 ![imatge](/tasca_05/img/imatge_19.png)
 
-I comprovarem amb el wireshark que tot el trànsit que generem surt via SSH cap al servidor SSH. En aquests cas he escollit [amazon.es](http://amazon.es) per fer les proves.
+I comprovarem amb el wireshark que tot el trànsit que generem surt via ****SSH cap al servidor SSH****. En aquests cas he escollit [amazon.es](http://amazon.es) per fer les proves.
 
 ![imatge](/tasca_05/img/imatge_20.png)
 
 ## ⌨️ 10. **Log in amb SSH Keys:**
 
-En l’últim pas de la pràctica haurem de intentar iniciar sessió remota (ssh) sense utilitzar el password de l’equip que ens volem connectar. Això ens pot ajudar a l’automatització de gestió de màquines remotes.
+En l’últim pas de la pràctica haurem de intentar iniciar sessió remota (ssh) sense utilitzar el password de l’equip que ens volem connectar. Això ens pot ajudar a **l’automatització de gestió de màquines remotes**.
 
-Per fer-ho generarem una key pública.
+Per fer-ho generarem una ****key pública****.
 
 ![imatge](/tasca_05/img/imatge_21.png)
 
-Ara, introduirem la següen comanda, que intenta copiar la clau pública SSH (id\_rsa.pub) des de la màquina local al servidor. 
+Ara, introduirem la següen comanda, que intenta copiar la clau pública SSH **(id_rsa.pub)** des de la màquina local al servidor. 
 
 ![imatge](/tasca_05/img/imatge_22.png)
 
-Seguidament veurem amb un cat, si la clau que hem copiat abans de la màquina local al servidor s’ha copiat correctament, i així és.
+Seguidament veurem amb un **cat**, si la clau que hem copiat abans de la màquina local al servidor s’ha copiat correctament, i així és.
 
 ![imatge](/tasca_05/img/imatge_23.png)
 
