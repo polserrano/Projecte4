@@ -193,6 +193,47 @@ Finalment veiem que si intentem fer un ssh amb el servidor desde el client, no e
 
 ----
 ## 🖱️ 11. Servidor OpenSSH
+
+Seguidament habilitarem el servidor **OpenSSH**, que per defecte be desactivat. Per això haurem de anar desde el windows a **Aplicaciones y caracteristicas > características opcionales > Agregar una caracteristica > Servidor OpenSSH**
+
+![imatge](/tasca_05/img/imatge_25.png)
+
+Ara habilitarem amb el servei amb la comanda:
+
+```bash
+Start-Service sshd
+```
+
+![imatge](/tasca_05/img/imatge_26.png)
+
+I ara indiquem que el servei arranqui automaticament amb la comanda:
+
+```bash
+Set-Service -Name sshd -StartupType 'Automatic'
+```
+
+![imatge](/tasca_05/img/imatge_27.png)
+
+Ara introduïm aquesta comanda per deshabilitar el firewall:
+
+```bash
+New-NetFirewallRule -Name "OpenSSH-Server" -DisplayName "OpenSSH Server (sshd)" -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
+```
+
+I seguidament introduïrem la comanda:
+
+```bash
+Restart-Service sshd
+```
+
+Per aplicar tots el canviis anteriorment fets. Despres iniciarem un ssh amb el servidor des d'un altre equip, ja sigui Linux o Windows.
+
+![imatge](/tasca_05/img/imatge_28.png)
+
+Finalment, un cop validat, tenim una sessió remota.
+
+![imatge](/tasca_05/img/imatge_28.png)
+
 ----
 ## 🔥 12. Conclusió de la tasca:
 
