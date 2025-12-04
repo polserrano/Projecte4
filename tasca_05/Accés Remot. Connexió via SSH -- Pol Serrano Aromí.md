@@ -10,7 +10,7 @@ S’ha de documentar el procés de connexió SSH utilitzant màquines virtuals, 
 
 ---
 
-2. # **Índex:**
+# 2. **Índex:**
 
 **1\. Introducció a la tasca**
 
