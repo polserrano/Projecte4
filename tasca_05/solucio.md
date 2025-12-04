@@ -42,20 +42,20 @@ S’ha de documentar el procés de connexió SSH utilitzant màquines virtuals, 
 
 Primer de tot configurarem la vm del servidor, on hi posarem 2 adaptadors: un NAT i l’altre amfitrió perquè es pugui fer la connexió via ssh amb el client com diu la pràctica.
 
-![][image1]
+![imatge](/tasca_05/img/imatge_1.png)
 
 Seguidament, entrarem amb arxiu de configuració de xarxa per habilitar el 2n adaptador, sinó el habilitem no funcionara el 2n adaptador, és com si no el tinguéssim activat.
 
-![][image2]
+![imatge](/tasca_05/img/imatge_2.png)
 
 Un cop habilitat el segon adaptador, introduirem un ‘sudo netplan apply’ i revisarem si l’hem configurat correctament, i així és, si ens dona una ip voldrà dir que està correctament configurat i funcionant.
 
-![][image3]
+![imatge](/tasca_05/img/imatge_3.png)
 
 Seguidament farem uns updates i upgrades en els paquets que es troben desactualitzats en el sistema.
 
-![][image4]  
-![][image5]
+![imatge](/tasca_05/img/imatge_4.png)
+![imatge](/tasca_05/img/imatge_5.png)
 
 ---
 
@@ -63,69 +63,69 @@ Seguidament farem uns updates i upgrades en els paquets que es troben desactuali
 
 Un cop haguim configurat l’equip i actualitzat, instal·larem el servei ssh.
 
-![][image6]
+![imatge](/tasca_05/img/imatge_6.png)
 
 Un cop instal·lat, comprovem el seu estat si està activat.
 
-![][image7]
+![imatge](/tasca_05/img/imatge_7.png)
 
 # 5. **Configuracions prèvies (client)**
 
 Un tinguem al servidor, tot actualitzat, els adaptadors habilitats i configurats i l’ssh instal·lat, pasarem a crear una altre vm simulada a un client, en aquests cas ho farem amb windows 11\. També recordem, posar els adaptador igual que el server. 1r adaptador nat i el segon amfitrió.
 
-![][image8]
+![imatge](/tasca_05/img/imatge_8.png)
 
 # 6. **Primeres connexions**
 
 El següent pas, obrirem PowerShell i intentarem connectar-nos amb el servidor via ssh. En la primera connexió com no ens reconeix la clau pública ens demana que li confirmem l’autenticitat.
 
-![][image9]
+![imatge](/tasca_05/img/imatge_9.png)
 
 Un cop confirmada l’autenticitat i posada la contrasenya del servidor estarem dins.
 
-![][image10]
+![imatge](/tasca_05/img/imatge_10.png)
 
 # 7.  **Configuracions SSH:**
 
 Seguidament entrarem amb arxiu que es troba a: /etc/ssh/sshd\_config. On aqui podem permetre o no connexions de root  canviar el port de connexió, en el meu cas com diu la tasca he tocat només el permís de iniciar sessió com a root.
 
-![][image11]
+![imatge](/tasca_05/img/imatge_11.png)
 
 Després com ens diu la tasca, crearem un nou usuari amb el nom de usuari2.
 
-![][image12]
+![imatge](/tasca_05/img/imatge_12.png)
 
 Seguidament, configurarem perquè l’usuari server21 pugui entrar a ssh com a usuari, pero usuari2 tingui el permís denegat, més endavant veurem com els canvis s'apliquen correctament.
 
-![][image13]
+![imatge](/tasca_05/img/imatge_13.png)
 
 Farem un: sudo systemctl restart shh, també un reload, per aplicar els canvis correctament, jo recomano per si algun cas reiniciar les dues màquines, tant client com server, per acabar d’assegurar que els canvis s’han desat.
 
-![][image14]
+![imatge](/tasca_05/img/imatge_14.png)
 
 Un cop reiniciat el servei, i reiniciades les màquines intentarem connectar-nos amb els dos usuaris: server21 i usuari2, i un cop fetes les comprovacions veiem que el que ens diu l’enunciat s’ha complert correctament, ja que amb usuari2 ens denega el permís (no podem entrar) i amb server21 sí que ens deixa gràcies a afegir-lo com a usuari vàlid en el arxiu de configuració d’ssh
 
-![][image15]  
-![][image16]
+![imatge](/tasca_05/img/imatge_15.png) 
+![imatge](/tasca_05/img/imatge_16.png)
 
 # 8. **Túnel amb redirecció dinàmica:**
 
 Ara configurarem un túnel amb redirecció dinàmica que utilitzarem per redirigir el trànsit.
 
-![][image17]  
+![imatge](/tasca_05/img/imatge_17.png)
 Un cop posada la comanda, haurem de fer-ho manualment desde windows, entrarem a panel de control \> redes e internet \> Propiedades de internet \> Conexiones \> Configuración de LAN \> (deshabilitar l’opció ‘Detectar la configuración automáticamente’) Opciones avanzades. 
 
-![][image18]
+![imatge](/tasca_05/img/imatge_18.png)
 
 # 9. **Túnel amb redirecció dinàmica (WireShark):**
 
 Primer de tot entrarem a: [wireshark.org](http://wireshark.org), instal·larem el wireshark.
 
-![][image19]
+![imatge](/tasca_05/img/imatge_19.png)
 
 I comprovarem amb el wireshark que tot el trànsit que generem surt via SSH cap al servidor SSH. En aquests cas he escollit [amazon.es](http://amazon.es) per fer les proves.
 
-![][image20]
+![imatge](/tasca_05/img/imatge_20.png)
 
 # 10. **Log in amb SSH Keys:**
 
@@ -133,17 +133,25 @@ En l’últim pas de la pràctica haurem de intentar iniciar sessió remota (ssh
 
 Per fer-ho generarem una key pública.
 
-![][image21]
+![imatge](/tasca_05/img/imatge_21.png)
 
 Ara, introduirem la següen comanda, que intenta copiar la clau pública SSH (id\_rsa.pub) des de la màquina local al servidor. 
 
-![][image22]
+![imatge](/tasca_05/img/imatge_22.png)
 
 Seguidament veurem amb un cat, si la clau que hem copiat abans de la màquina local al servidor s’ha copiat correctament, i així és.
 
-![][image23]
+![imatge](/tasca_05/img/imatge_23.png)
 
 Finalment veiem que si intentem fer un ssh amb el servidor desde el client, no ens demanara ningún password, sino que se'ns iniciarà sessió automàticament.
 
-![][image24]
+![imatge](/tasca_05/img/imatge_24.png)
+
+----
+
+Conclusio
+
+---
+Gracies x la vostra tenció
+- [Tornar Enrere](./.)
 
