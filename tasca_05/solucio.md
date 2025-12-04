@@ -3,7 +3,7 @@
 - **Data:** 4/12/2025
 ---
 
-# 1. **Introducció:**
+# 1. **Introducció a la tasca:**
 
 La tasca consisteix a crear una Prova de Concepte (PoC) que servirà com a base per a la futura documentació interna de la consultora sobre gestió remota segura. Atès que els servidors dels clients i els interns estan en CPDs o al núvol, l’eina principal per administrar-los és SSH, l’estàndard segur per gestionar sistemes, especialment Linux.  
 L’objectiu és elaborar una guia impecable destinada als futurs becaris perquè puguin connectar-se de manera segura als sistemes de l’empresa sense necessitat d’una formació inicial extensa.
