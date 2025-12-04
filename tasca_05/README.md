@@ -21,6 +21,7 @@ La documentació haurà de seguir com a referència les activitats indicades a l
 
 🔗 **Enllaços útils:**
 - 📄 [Guia completa i solució de la PoC – solucio.md](solucio.md)
+- 📸 [Carpeta amb totes les imatges](img)
 
 ---
 
