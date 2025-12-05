@@ -228,11 +228,19 @@ Despres farem un ipconfig per veure la ip a la que li hem de fer el ssh.
 
 ![imatge](/tasca_05/img/imatge_29.png)
 
-Seguidament iniciem sessió remota amb el ssh a la ip anterioment comentada:
+Seguidament iniciem sessió remota amb el ssh a la ip anterioment comentada, es fa mitjançant la comanda:
+
+```bash
+ssh usuari@ip
+```
 
 ![imatge](/tasca_05/img/imatge_30.png)
 
-I finalment, comprovem que tenim totes les carpetes i els arxius del usuari visibles:
+I finalment, comprovem que tenim totes les carpetes i els arxius del usuari visibles amb la comanda:
+
+```bash
+dir
+```
 
 ![imatge](/tasca_05/img/imatge_31.png)
 
