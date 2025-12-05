@@ -214,25 +214,27 @@ Set-Service -Name sshd -StartupType 'Automatic'
 
 ![imatge](/tasca_05/img/imatge_27.png)
 
-Ara introduïm aquesta comanda per deshabilitar el firewall:
-
-```bash
-New-NetFirewallRule -Name "OpenSSH-Server" -DisplayName "OpenSSH Server (sshd)" -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
-```
-
-I seguidament introduïrem la comanda:
+Ara introduirem la comanda:
 
 ```bash
 Restart-Service sshd
 ```
 
-Per aplicar tots el canviis anteriorment fets. Despres iniciarem un ssh amb el servidor des d'un altre equip, ja sigui Linux o Windows.
+Per aplicar tots el canvïs anteriorment fets.
 
 ![imatge](/tasca_05/img/imatge_28.png)
 
-Finalment, un cop validat, tenim una sessió remota.
+Despres farem un ipconfig per veure la ip a la que li hem de fer el ssh.
 
-![imatge](/tasca_05/img/imatge_28.png)
+![imatge](/tasca_05/img/imatge_29.png)
+
+Seguidament iniciem sessió remota amb el ssh a la ip anterioment comentada:
+
+![imatge](/tasca_05/img/imatge_30.png)
+
+I finalment, comprovem que tenim totes les carpetes i els arxius del usuari visibles:
+
+![imatge](/tasca_05/img/imatge_31.png)
 
 ----
 ## 🔥 12. Conclusió de la tasca:
