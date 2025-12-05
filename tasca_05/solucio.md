@@ -226,13 +226,14 @@ Per aplicar tots el canvïs anteriorment fets.
 
 Despres farem un ipconfig per veure la ip a la que li hem de fer el ssh.
 
+```bash
+ssh usuari@ip
+```
+
 ![imatge](/tasca_05/img/imatge_29.png)
 
 Seguidament iniciem sessió remota amb el ssh a la ip anterioment comentada, es fa mitjançant la comanda:
 
-```bash
-ssh usuari@ip
-```
 
 ![imatge](/tasca_05/img/imatge_30.png)
 
