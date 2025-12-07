@@ -173,7 +173,7 @@ I comprovarem amb el wireshark que tot el trànsit que generem surt via ****SSH 
 
 ## ⌨️ 10. **Log in amb SSH Keys:**
 
-En l’últim pas de la pràctica haurem de intentar iniciar sessió remota (ssh) sense utilitzar el password de l’equip que ens volem connectar. Això ens pot ajudar a **l’automatització de gestió de màquines remotes**.
+Ara haurem de intentar iniciar sessió remota (ssh) sense utilitzar el password de l’equip que ens volem connectar. Això ens pot ajudar a **l’automatització de gestió de màquines remotes**.
 
 Per fer-ho generarem una ****key pública****.
 
