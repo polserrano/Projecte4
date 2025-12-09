@@ -12,8 +12,8 @@ A la tasca anterior heu dissenyat una política de còpies de seguretat pel nost
 1. Introducció a la tasca
 2. Índex
 3. Configuracions Prèvies
-4. Còpia seg. equips clients Windows
-5. Còpia seg. servidor Linux
+4. Còpia seguretat equips clients Windows
+5. Còpia seguretat servidor Linux
 6. Conclusió de la tasca
 
 ## 🌐 3. Configuracions Prèvies:
