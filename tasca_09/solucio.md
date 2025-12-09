@@ -31,6 +31,9 @@ En aquest projecte abordarem una de les necessitats més habituals dels nostres 
 
 ## 💻 3. Configuracións Prèvies:
 
+![imatge](/tasca_09/img/1.png)
+![imatge](/tasca_09/img/2.png)
+![imatge](/tasca_09/img/3.png)
 
 ---
 
