@@ -59,6 +59,7 @@ En aquest projecte abordarem una de les necessitats més habituals dels nostres 
 ---
 ## 🔗 8. Fase 5: Muntatge Automàtic amb /etc/fstab
 
+![imatge](/tasca_09/img/37.png)
 
 ---
 ## 🔥 9. Conclusió de la tasca
