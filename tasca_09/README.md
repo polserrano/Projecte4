@@ -26,6 +26,7 @@ L’objectiu és mostrar com quedarà la solució, així com les seves limitacio
 
 🔗 **Enllaços útils:**
 - 📄 [Descripció completa de la tasca al repositori GitHub](https://github.com/SMX2n/Projecte04-NFS)  
+- 📸 [Carpeta amb totes les imatges](img)
 
 ---
 
