@@ -34,6 +34,10 @@ En aquest projecte abordarem una de les necessitats més habituals dels nostres 
 ![imatge](/tasca_09/img/1.png)
 ![imatge](/tasca_09/img/2.png)
 ![imatge](/tasca_09/img/3.png)
+![imatge](/tasca_09/img/4.png)
+![imatge](/tasca_09/img/5.png)
+![imatge](/tasca_09/img/6.png)
+![imatge](/tasca_09/img/7.png)
 
 ---
 
