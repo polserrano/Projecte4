@@ -35,9 +35,35 @@ Primer de tot crearem i iniciarem les dues màquines, tant la del **server** com
 
 ![imatge](/tasca_09/img/1.png)
 ![imatge](/tasca_09/img/2.png)
+
+Actualitzarem els paquets que solen estar desactualitzats just cuan iniciem les màquines amb la comanda:
+
+```bash
+sudo apt update && apt upgrade -y
+```
+
+Això ho realitzarem amb les dues màquines, tant el servidor com el client.
+
 ![imatge](/tasca_09/img/3.png)
+
+Verfiquem que el segon adaptador en les dues màquines que està activat i donant-nos ip. Si no ens esta donant adaptador, hauriem de entrar a:
+
+```bash
+sudo nano /etc/netplan/50-cloud-init.yaml
+```
+
+Y posarem en el **enp0s8** true.
+
 ![imatge](/tasca_09/img/4.png)
 ![imatge](/tasca_09/img/5.png)
+
+Seguidament fem un ping:
+
+- Del servidor --> client
+- Del client --> servidor
+
+Per comprovar que ambudes màquines es veuen entre sí, si no es veuen no podrem seguir la pràctica.
+
 ![imatge](/tasca_09/img/6.png)
 ![imatge](/tasca_09/img/7.png)
 
