@@ -70,13 +70,47 @@ Per comprovar que ambudes màquines es veuen entre sí, si no es veuen no podrem
 ---
 ## 📡 4. Fase 2: Preparació del servidor
 
+Seguidament continuarem amb la creació de les carpetes y assginarem els permisos pertinents, com podem veure estem creant la carpeta: **dev_projectes** i **admin_tools** i assignarem els permisos 777, que es tradueixen en:
+
+**7 per al propietari** → lectura, escriptura i execució
+**7 per al grup** → lectura, escriptura i execució
+**7 per a altres (tots)** → lectura, escriptura i execució
+
 ![imatge](/tasca_09/img/8.png)
 ![imatge](/tasca_09/img/9.png)
 ![imatge](/tasca_09/img/10.png)
+
+Ara crearem els dos grups amb un id, amb la comanda:
+
+```bash
+sudo groupadd -g id nom_grup
+```
+
 ![imatge](/tasca_09/img/11.png)
+
+seguidament crearem els usuaris, on com abans, assignarem un id per a cada un i els posarem dins la carpeta. Comanda:
+
+```bash
+sudo useradd -m -s id nom_carpeta nom_usuari
+```
+
 ![imatge](/tasca_09/img/12.png)
 ![imatge](/tasca_09/img/13.png)
+
+Seguidament un cop tinguem creat els usuaris i grups i assignar-los a id, instal·larem el servei **nfs** al servidor amb la comanda:
+
+```bash
+sudo apt intall nfs-kernel-server
+```
+
 ![imatge](/tasca_09/img/14.png)
+
+I ara, un cop el tinguem instal·lat l'iniciarem:
+
+```bash
+systemctl start nfs-kernel-server
+```
+
 ![imatge](/tasca_09/img/15.png)
 ![imatge](/tasca_09/img/16.png)
 ![imatge](/tasca_09/img/17.png)
