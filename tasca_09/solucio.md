@@ -112,8 +112,11 @@ systemctl start nfs-kernel-server
 ```
 
 ![imatge](/tasca_09/img/15.png)
-![imatge](/tasca_09/img/16.png)
+
+d
+
 ![imatge](/tasca_09/img/17.png)
+![imatge](/tasca_09/img/16.png)
 ![imatge](/tasca_09/img/18.png)
 ![imatge](/tasca_09/img/19.png)
 ![imatge](/tasca_09/img/20.png)
