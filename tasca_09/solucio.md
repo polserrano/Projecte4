@@ -42,10 +42,29 @@ En aquest projecte abordarem una de les necessitats més habituals dels nostres 
 ---
 ## 📡 4. Fase 2: Preparació del servidor
 
+![imatge](/tasca_09/img/8.png)
+![imatge](/tasca_09/img/9.png)
+![imatge](/tasca_09/img/10.png)
+![imatge](/tasca_09/img/11.png)
+![imatge](/tasca_09/img/12.png)
+![imatge](/tasca_09/img/13.png)
+![imatge](/tasca_09/img/14.png)
+![imatge](/tasca_09/img/15.png)
+![imatge](/tasca_09/img/16.png)
+![imatge](/tasca_09/img/17.png)
+![imatge](/tasca_09/img/18.png)
+![imatge](/tasca_09/img/19.png)
+![imatge](/tasca_09/img/20.png)
+![imatge](/tasca_09/img/21.png)
 
 ---
 ## 🗄️ 5. Fase 3: L'Exportació d'Administració
 
+![imatge](/tasca_09/img/22.png)
+![imatge](/tasca_09/img/23.png)
+![imatge](/tasca_09/img/24.png)
+![imatge](/tasca_09/img/25.png)
+![imatge](/tasca_09/img/26.png)
 
 ---
 ## ⚙️ 6. Fase 4: L'Exportació de Desenvolupament
