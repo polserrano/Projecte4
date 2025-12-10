@@ -31,6 +31,8 @@ En aquest projecte abordarem una de les necessitats més habituals dels nostres 
 
 ## 🌍 3. Fase 1: Preparació de l'entorn
 
+Primer de tot crearem i iniciarem les dues màquines, tant la del **server** com **client**, hi posarem que hi haguin a les dues màquines, 2 adaptadors, x1 de **NAT** (per tenir xarxa) i x1 de **Amfitrió** (perquè es veguin entre si).
+
 ![imatge](/tasca_09/img/1.png)
 ![imatge](/tasca_09/img/2.png)
 ![imatge](/tasca_09/img/3.png)
