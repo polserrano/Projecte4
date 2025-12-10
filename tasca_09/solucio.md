@@ -113,7 +113,13 @@ systemctl start nfs-kernel-server
 
 ![imatge](/tasca_09/img/15.png)
 
-d
+Seguidament entrarem al arxiu:
+
+```bash
+sudo nano /etc/exports
+```
+
+Aqui afegirem 
 
 ![imatge](/tasca_09/img/17.png)
 ![imatge](/tasca_09/img/16.png)
