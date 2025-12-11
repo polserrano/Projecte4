@@ -64,15 +64,17 @@ Ara ens apareixera un 'pop-up' amb les credencials RDP, on haurem de posar el us
 
 I si tots els passos els hem seguit tots correctament, la connexió remota sortirà bé i podrem veure podem veure i fer servir el ordenador amb el que estem fent la connexió. Podem veure en l'imatge, que posa: **"usuari_21"** vol dir que estem en el PC correcte, que la connexió està ben feta.
 
-## 🔗 5. Connexió remota de Windows > Zorin OS:
-
 ![imatge8](/tasca_06/img/8.png)
 
-a
+## 🔗 5. Connexió remota de Windows > Zorin OS:
+
+Un cop haguim fet la connexió de Zorin a Windows, seguirem amb part dos que consisteix fer el mateix perà al revès. de **Windows > Zorin**
+
+Per començar aquesta part, entrarem a **Configuració > Sistema > Activar opcions: 'Escriptori Compartit' i 'Control Remot'**. Sobretot has de saber que Zorin et posa una contrasenya predeterminada que són paraules random, jo recomano cambiarla per una vostre més senzilla però segura.
 
 ![imatge9](/tasca_06/img/9.png)
 
-a
+Seguidament, un cop cambiada
 
 ![imatge10](/tasca_06/img/10.png)
 
