@@ -24,11 +24,17 @@ Primer de tot haurem de instal·lar i configurar les màquines, tant la de **Win
 ![imatge1](/tasca_06/img/1.png)
 ![imatge2](/tasca_06/img/2.png)
 
-aa
+Seguidament un cop tinguem les dues màquines farem un:
+
+```bash
+sudo apt upgrade && update update -y
+```
+
+Despres anirem a la configuració de el nostre Windows: **Sistema > Escritorio Remoto** i activarem la primera opció com es pot mostrar a la imatge, un cop activada la opció veurem el nom del nostre PC ja que ens servirà per fer la configuració
 
 ![imatge3](/tasca_06/img/3.png)
 
-a
+Un cop tinguem la opció activada, sabem quin es el nostre nom de el PC, entrarem a la tercera opció de la imatge anterior: **"Usuarios de escritorio remoto"**, aqui assignarem i li donarem permisos als usuaris amb els que podem fer la connexió. Llavors aquí afegirem el nom que tenim en la màquina del **Windows** i en la del **Zorin**.
 
 ![imatge4](/tasca_06/img/4.png)
 
