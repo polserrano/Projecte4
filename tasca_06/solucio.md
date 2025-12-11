@@ -86,11 +86,11 @@ Seguidament ens demanarà les credencials de la conta de Windows, perquè pugui 
 
 ![imatge13](/tasca_06/img/13.png)
 
-Un 
+Un cop hàguim posat les credenciales del usuari de Windows, ens demanarà si volem acceptar el certificat, bàsicament és el mateix pas que hem fet anteriorment amb el Zorin, en aquests cas li donarem a **sí**
 
 ![imatge14](/tasca_06/img/14.png)
 
-a
+Un cop hàguim acceptat el certificat i hàguim seguit tots els passos correctament, la connexió remota de Windows > Zorin hauria de sortir bé, com podeu veure en la captura podem veure funcionant una connexió desde el meu windows amb l'eina de **Connexió remota** a Zorin.
 
 ![imatge15](/tasca_06/img/15.png)
 
