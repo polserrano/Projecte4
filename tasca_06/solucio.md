@@ -19,7 +19,60 @@ Per tal d’assolir aquests objectius, primer es verificarà que tots dos equips
 
 ## 💻 3. Tasca accés remot:
 
+![imatge1](/tasca_06/img/1.png)
+![imatge2](/tasca_06/img/2.png)
 
+aa
+
+![imatge3](/tasca_06/img/3.png)
+
+a
+
+![imatge4](/tasca_06/img/4.png)
+
+a
+
+![imatge5](/tasca_06/img/5.png)
+
+a
+
+![imatge6](/tasca_06/img/6.png)
+
+a
+
+![imatge7](/tasca_06/img/7.png)
+
+a
+
+![imatge8](/tasca_06/img/8.png)
+
+a
+
+![imatge9](/tasca_06/img/9.png)
+
+a
+
+![imatge10](/tasca_06/img/10.png)
+
+a
+
+![imatge11](/tasca_06/img/11.png)
+
+a
+
+![imatge12](/tasca_06/img/12.png)
+
+a
+
+![imatge13](/tasca_06/img/13.png)
+
+a
+
+![imatge14](/tasca_06/img/14.png)
+
+a
+
+![imatge15](/tasca_06/img/15.png)
 
 ## 💾 4. Conclusió de la tasca:
 
