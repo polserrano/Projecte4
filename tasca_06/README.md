@@ -17,7 +17,7 @@ Aquesta documentació haurà de ser **extremadament clara i precisa**, ja que la
 ---
 
 🔗 **Enllaços útils:**
-- 📄 [Guia completa de la PoC - solucio.md](solucio.md)
+- 📄 [Guia completa - solucio.md](solucio.md)
 - 📸 [Carpeta amb totes les imatges](img)
 
 ---
