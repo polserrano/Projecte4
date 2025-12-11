@@ -19,6 +19,7 @@ Per tal d’assolir aquests objectius, primer es verificarà que tots dos equips
 
 ## 💻 3. Tasca accés remot:
 
+Primer de tot haurem de instal·lar i configurar les màquines, tant la de **Windows** com la de **Zorin**, el punt important és que haurem de posar 2 adaptadors a les dues màquines, **NAT** (perquè tinguin connexió) i **Amfitrió** (perquè es puguin veure entre si).
 ![imatge1](/tasca_06/img/1.png)
 ![imatge2](/tasca_06/img/2.png)
 
