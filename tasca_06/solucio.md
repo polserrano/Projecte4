@@ -74,17 +74,13 @@ Per començar aquesta part, entrarem a **Configuració > Sistema > Activar opcio
 
 ![imatge9](/tasca_06/img/9.png)
 
-Seguidament, un cop cambiada
+Seguidament, un cop activades les opcions i cambiada la contrasenya, anirem al Windows, on haurem de buscar: **"Conexió a Exriptori Remot"**, aquí no haurem de tocar res ja que allò sen's posarà automàticament, li donarem a **"Connectar"**
 
 ![imatge10](/tasca_06/img/10.png)
 
-a
+Aquesta imatge us la mostro, ja que en el Zorin, en la configuració com us e ensenyat abans, podrem configurar tant el **nom del usuari** com la **contrasenya** ja que com us he dit més endevant quan fem la connexió ens demanarà tant el usuari com la contrasenya.
 
 ![imatge11](/tasca_06/img/11.png)
-
-a
-
-![imatge12](/tasca_06/img/12.png)
 
 a
 
