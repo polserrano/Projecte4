@@ -1,4 +1,4 @@
-# 🌐 T06: ACCÉS REMOT
+# 🌐 T06: Accés remot - RDP - Windows & Zorin
 
 - **Autor:** Pol Serrano Aromí
 - **Data:** 11/12/2025
