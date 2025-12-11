@@ -9,7 +9,9 @@
 - **1/ Índex**
 - **2/ Introducció a la tasca**
 - **3/ Tasca accés remot**
-- **4/ Conclusió**
+- **4/ Connexió remota de Zorin OS > Windows**
+- **5/ Connexió remota de Windows > Zorin OS**
+- **6/ Conclusió**
 
 ## 💥 2. Introducció a la tasca:
 
@@ -24,10 +26,12 @@ Primer de tot haurem de instal·lar i configurar les màquines, tant la de **Win
 ![imatge1](/tasca_06/img/1.png)
 ![imatge2](/tasca_06/img/2.png)
 
+## 🔗 4. Connexió remota de Zorin OS > Windows:
+
 Seguidament un cop tinguem les dues màquines farem un:
 
 ```bash
-sudo apt upgrade && update update -y
+sudo apt upgrade && apt upgrade -y
 ```
 
 Despres anirem a la configuració de el nostre Windows: **Sistema > Escritorio Remoto** i activarem la primera opció com es pot mostrar a la imatge, un cop activada la opció veurem el nom del nostre PC ja que ens servirà per fer la configuració
@@ -38,19 +42,29 @@ Un cop tinguem la opció activada, sabem quin es el nostre nom de el PC, entrare
 
 ![imatge4](/tasca_06/img/4.png)
 
-a
+Un cop haguim agregat el usuari en el Windows tindrem la part de Windows configurada (fins el moment), ara entrarem en el Zorin i obrirem l'aplicació **"Remmina"** que per defecte ja be instal·lat amb el Zorin. Bàsicament remmina és un client d'escriptori remot de Linux, el que estem fent és "simular" una cosa que ens podria passar a la nostra vida real, treballant remot amb un client.
+
+Llavors un cop obreta l'aplicació, introdüirem en el buscador d'adalt com s'observa a la imatge, posarem el nom del **PC de Windows** i un .local al final, en el meu cas ha sigut:
+
+```bash
+pcpolserrano.local
+```
+
+Seguidament li donem al **Enter**
 
 ![imatge5](/tasca_06/img/5.png)
 
-a
+Seguidament ens donarà informació de un certificat entre les connexións de cada màquina, li donem a: **Yes** ja que si no l'accepten no podrem seguir la pràctica.
 
 ![imatge6](/tasca_06/img/6.png)
 
-a
+Ara ens apareixera un 'pop-up' amb les credencials RDP, on haurem de posar el usuari i contrasenya del PC de Windows. Un cop ho tinguem la autentificació feta, li donarem a: **"OK"**.
 
 ![imatge7](/tasca_06/img/7.png)
 
-a
+I si tots els passos els hem seguit tots correctament, la connexió remota sortirà bé i podrem veure podem veure i fer servir el ordenador amb el que estem fent la connexió. Podem veure en l'imatge, que posa: **"usuari_21"** vol dir que estem en el PC correcte, que la connexió està ben feta.
+
+## 🔗 5. Connexió remota de Windows > Zorin OS:
 
 ![imatge8](/tasca_06/img/8.png)
 
