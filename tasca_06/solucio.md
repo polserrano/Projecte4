@@ -1,4 +1,33 @@
-# T06: ACCÉS REMOT
+# 🌐 T06: ACCÉS REMOT
 
 - **Autor:** Pol Serrano Aromí
 - **Data:** 11/12/2025
+
+
+## 📖 1. Índex:
+
+- **1/ Índex**
+- **2/ Introducció a la tasca**
+- **3/ Tasca accés remot**
+- **4/ Conclusió**
+
+## 💥 2. Introducció a la tasca:
+
+En aquesta activitat es treballarà la configuració i utilització de connexions d’escriptori remot entre dos sistemes operatius: Windows i Linux (amb entorn d’escriptori Gnome, com ara Zorin OS o Ubuntu). L’objectiu principal és comprendre i aplicar els mecanismes que permeten l’accés remot a una màquina, així com garantir que ambdues estacions de treball poden comunicar-se correctament dins d’una mateixa xarxa.
+
+Per tal d’assolir aquests objectius, primer es verificarà que tots dos equips disposen de connectivitat. A continuació, es documentarà el procés de configuració necessari tant en Windows com en Linux perquè cada màquina pugui acceptar connexions remotes de manera segura. Finalment, es realitzarà la connexió d’un equip a l’altre i es comprovarà el correcte funcionament del servei d’escriptori remot.
+
+## 💻 3. Tasca accés remot:
+
+
+
+## 💾 4. Conclusió de la tasca:
+
+La realització d’aquesta activitat m’ha permès comprendre de manera pràctica el funcionament de les connexions d’escriptori remot entre sistemes operatius diferents, així com els requisits de configuració específics per a Windows i Linux. Considero que ha estat una tasca útil, ja que no només he après a habilitar i gestionar aquestes connexions, sinó també a identificar possibles problemes de xarxa i a assegurar una comunicació correcta entre màquines.
+
+Personalment, opino que aquesta experiència és molt valuosa perquè reflecteix situacions reals d’entorns professionals, on sovint cal administrar equips remotament i combinar diferents plataformes. Haver pogut provar el procés pas a pas m’ha ajudat a entendre millor la importància de la configuració adequada, la seguretat i la verificació contínua del sistema. En general, considero que l’activitat ha estat enriquidora i m’ha aportat coneixements pràctics que podré aplicar en futurs projectes tècnics.
+
+---
+
+# Gràcies per la vostra atenció
+- [Tornar enrere](./.)
