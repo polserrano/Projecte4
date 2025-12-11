@@ -78,15 +78,15 @@ Aquesta imatge us la mostro, ja que en el Zorin, en la configuració com us e en
 
 ![imatge11](/tasca_06/img/11.png)
 
-Seguidament, un cop activades les opcions i cambiada la contrasenya, anirem al Windows, on haurem de buscar: **"Conexió a Exriptori Remot"**, aquí no haurem de tocar res ja que allò sen's posarà automàticament, li donarem a **"Connectar"**
+Seguidament, un cop activades les opcions i cambiada la contrasenya, anirem al Windows, on haurem de buscar: **"Conexió a Exriptori Remot"**, aquí no haurem de tocar res ja que allò sen's posarà automàticament, li donarem a **"Connectar"**.
 
 ![imatge10](/tasca_06/img/10.png)
 
-a
+Seguidament ens demanarà les credencials de la conta de Windows, perquè pugui verificar que estem fent una connexió segura amb equips nostres o de client, no amb algú random.
 
 ![imatge13](/tasca_06/img/13.png)
 
-a
+Un 
 
 ![imatge14](/tasca_06/img/14.png)
 
