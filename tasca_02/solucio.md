@@ -79,10 +79,10 @@ El següent pas, serà com l'altre còpia, escollir on volem fer la còpia, grà
 Iniciarem sessió en el compte de Google on volem fer la còpia del drive, ja que així duplicati obtindra el **"AuthID"** on és una serie de lletres que autoritzan que la teva conta tingui accés duplicati. I en l'apartat de
 
 ![imatge14_windows](/tasca_02/img/win14.png)
+![imatge15_windows](/tasca_02/img/win15.png)
 
 I posarem la data de cuan es volen fer les còpies i com diu la pràctica ho farem 1 cop cada dia de la setmana a les 18:00 hores.
 
-![imatge15_windows](/tasca_02/img/win15.png)
 ![imatge16_windows](/tasca_02/img/win17.png)
 
 ## 4.1 Comprovacions:
