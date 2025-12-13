@@ -51,6 +51,30 @@ A la tasca anterior heu dissenyat una política de còpies de seguretat pel nost
 
 ## 🐧 5. Còpia seg. servidor Linux:
 
+![imatge1_ubuntu](/tasca_02/img/ubuntu1.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu2.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu3.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu4.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu5.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu6.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu7.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu8.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu9.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu10.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu11.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu12.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu13.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu14.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu15.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu16.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu17.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu18.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu19.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu20.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu21.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu22.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu23.png)
+![imatge1_ubuntu](/tasca_02/img/ubuntu24.png)
 
 
 ---
