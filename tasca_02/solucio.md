@@ -64,15 +64,28 @@ Seguidament, en l'apartat de: **Schedule"** allà és on podrem assginar una dat
 
 ![imatge10_windows](/tasca_02/img/win10.png)
 
-## 4.4 Còpia de seg. a Drive.
+## 4.1 Còpia de seg. a Drive.
 
 Un cop seguit tots els passos anterior tindrem feta correctament la còpia de l'equip local de windows i s'anirà actualitzant cada hora, que es com li hem assignat. Ara, el següent pas de la pràctica, serà realitzar una còpia com hem fet abans, pero en canvi de l'equip, fer-ho del drive, per fer això agafarem un compte que tenim de google o podem agafar un que tenim però que no fem servir.
 
+Li posarem un nom al backup, una descripció (si volem), metode de encriptació i un password segur, jo no em vaig menjar molt el coco per posar una contrasenya segura ja que era per una pràctica, pero si es en un cas real, si que implementaria una contrasenya segura i difícil de descobrir.
+
 ![imatge11_windows](/tasca_02/img/win12.png)
+
+El següent pas, serà com l'altre còpia, escollir on volem fer la còpia, gràcies a l'eina de **duplicati** ens deixà triar diferentes aplicación de cloud o no, i **Drive** sí que l'incorpora. Llavors escollirem Drive.
+
 ![imatge12_windows](/tasca_02/img/win13.png)
-![imatge13_windows](/tasca_02/img/win14.png)
+
+Iniciarem sessió en el compte de Google on volem fer la còpia del drive, ja que així duplicati obtindra el **"AuthID"** on és una serie de lletres que autoritzan que la teva conta tingui accés duplicati. I en l'apartat de
+
 ![imatge14_windows](/tasca_02/img/win15.png)
+
+I posarem la data de cuan es volen fer les còpies i com diu la pràctica ho farem 1 cop cada dia de la setmana a les 18:00 hores.
+
 ![imatge15_windows](/tasca_02/img/win16.png)
+
+## 4.1 Comprovacions:
+
 ![imatge16_windows](/tasca_02/img/win17.png)
 ![imatge17_windows](/tasca_02/img/win18.png)
 ![imatge18_windows](/tasca_02/img/win19.png)
