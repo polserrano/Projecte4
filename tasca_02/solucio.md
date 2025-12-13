@@ -44,25 +44,30 @@ Seguidament, el següent pas, és fer la instal·lació de l'eina **duplicati**,
 ![imatge5_windows](/tasca_02/img/win5.png)
 ![imatge_duplicati](/tasca_02/img/duplicati1.png)
 
-Un cop instal·lada l'eina s'ens obrirà una pestanya en el nostre navegador predeterminat, com es mostra a la imatge. Podem veure que té una interficie molt bàsica i fàcil per la persona que l'està usant. Jo, en el meu cas, faré clic a **"Backups"** ja que com diu la pràctica haurem de fer una còpia de seguretat.
+Al iniciar l'aplicació per primer cop, ens demanarà que posem una **"Passphrase** això serveix per com diu a la imatge, si volem iniciar l'aplicació en un altre equip o localització que duplicati no coneix ens demanarà aquest "password" per confirmar que som nosaltres qui estem accedint.
 
 ![imatge6_windows](/tasca_02/img/win6.png)
 
-Un cop dins ens preguntarà quin nom li volem posar, tipus de encriptació, un password per guardar aquesta còpia ho més segur posible.
+Un cop instal·lada l'eina s'ens obrirà una pestanya en el nostre navegador predeterminat, com es mostra a la imatge. Podem veure que té una interficie molt bàsica i fàcil per la persona que l'està usant. Jo, en el meu cas, faré clic a **"Backups"** ja que com diu la pràctica haurem de fer una còpia de seguretat.
 
 ![imatge7_windows](/tasca_02/img/win7.png)
 
-El següent pas és la destinació, on volem fer aquesta còpia, en el nostre cas triarem el **Disc C** ja que el **Disc de còpies** serà on desarem aquella còpia.
+Un cop dins ens preguntarà quin nom li volem posar, tipus de encriptació, un password per guardar aquesta còpia ho més segur posible.
 
 ![imatge8_windows](/tasca_02/img/win8.png)
 
-Seguidament, en l'apartat de: **Schedule" allà és on podrem assginar una data o hora perquè és faguin les còpies automàticament. En aquests cas he assignat que la còpia és fagui cada hora de tots els dies de la setmana.
+El següent pas és la destinació, on volem fer aquesta còpia, en el nostre cas triarem el **Disc C** ja que el **Disc de còpies** serà on desarem aquella còpia.
 
 ![imatge9_windows](/tasca_02/img/win9.png)
 
-## 4.4 Còpia de seg. a Drive.
+Seguidament, en l'apartat de: **Schedule"** allà és on podrem assginar una data o hora perquè és faguin les còpies automàticament. En aquests cas he assignat que la còpia és fagui cada hora de tots els dies de la setmana.
 
 ![imatge10_windows](/tasca_02/img/win10.png)
+
+## 4.4 Còpia de seg. a Drive.
+
+Un cop seguit tots els passos anterior tindrem feta correctament la còpia de l'equip local de windows i s'anirà actualitzant cada hora, que es com li hem assignat. Ara, el següent pas de la pràctica, serà realitzar una còpia com hem fet abans, pero en canvi de l'equip, fer-ho del drive, per fer això agafarem un compte que tenim de google o podem agafar un que tenim però que no fem servir.
+
 ![imatge11_windows](/tasca_02/img/win12.png)
 ![imatge12_windows](/tasca_02/img/win13.png)
 ![imatge13_windows](/tasca_02/img/win14.png)
