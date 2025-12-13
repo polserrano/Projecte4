@@ -18,6 +18,8 @@ A la tasca anterior heu dissenyat una política de còpies de seguretat pel nost
 
 ## 🌐 3. Configuracions Prèvies:
 
+Començarem la pràctica creant les dues màquines, una de Windows y l'altre linux, en el meu cas he triat ubuntu. Hi posarem com diu l'enunciat un altre disc de **10GB** per guardar allà les còpies locals.
+
 ![imatge1_windows](/tasca_02/img/win1.png)
 ![imatge1_ubuntu](/tasca_02/img/ubuntu1.png)
 
@@ -25,9 +27,19 @@ A la tasca anterior heu dissenyat una política de còpies de seguretat pel nost
 
 ## 🪟 4. Còpia seg. equips clients Windows:
 
+Un cop haguem creat i iniciat les màquines, començarem amb la còpia de seguretat en l¡equip de **Windows**, quan iniciem l'equip, veurem que el disc no el reconeix, per això l'haurem de inicialitzar. farem un: **Ctrl+x > Administració de discos** i allà veurem que el disc antriorment posat desde el VirtualBox surt 'No assginat', llavors farem clic dret en el ratolí i l'icinialitzaren (li posarem particions).
+
 ![imatge2_windows](/tasca_02/img/win2.png)
+
+En el cas nostre el formatarem amb format: **NTFS** i li posarem de nom **"Còpies"** perquè sen's fagui més fàcil a la hora de reconeixe el segon disc.
+
 ![imatge3_windows](/tasca_02/img/win3.png)
+
+Un cop l'hàguim formatat, anirem al explorador de arxius i veurem que ara si que ens surt el segon disc.
+
 ![imatge4_windows](/tasca_02/img/win4.png)
+
+Seguidament, el següent pas, és 
 ![imatge5_windows](/tasca_02/img/win5.png)
 ![imatge6_windows](/tasca_02/img/win6.png)
 ![imatge7_windows](/tasca_02/img/win7.png)
