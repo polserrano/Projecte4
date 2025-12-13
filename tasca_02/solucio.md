@@ -39,12 +39,29 @@ Un cop l'hàguim formatat, anirem al explorador de arxius i veurem que ara si qu
 
 ![imatge4_windows](/tasca_02/img/win4.png)
 
-Seguidament, el següent pas, és 
+Seguidament, el següent pas, és fer la instal·lació de l'eina **duplicati**, per això entrarem a: https://duplicati.com i farem l'instal·ació com un software normal; ens demanarà sistema operatiu i es fer 4 clics donant-li a següent.
+
 ![imatge5_windows](/tasca_02/img/win5.png)
+![imatge_duplicati](/tasca_02/img/duplicati1.png)
+
+Un cop instal·lada l'eina s'ens obrirà una pestanya en el nostre navegador predeterminat, com es mostra a la imatge. Podem veure que té una interficie molt bàsica i fàcil per la persona que l'està usant. Jo, en el meu cas, faré clic a **"Backups"** ja que com diu la pràctica haurem de fer una còpia de seguretat.
+
 ![imatge6_windows](/tasca_02/img/win6.png)
+
+Un cop dins ens preguntarà quin nom li volem posar, tipus de encriptació, un password per guardar aquesta còpia ho més segur posible.
+
 ![imatge7_windows](/tasca_02/img/win7.png)
+
+El següent pas és la destinació, on volem fer aquesta còpia, en el nostre cas triarem el **Disc C** ja que el **Disc de còpies** serà on desarem aquella còpia.
+
 ![imatge8_windows](/tasca_02/img/win8.png)
+
+Seguidament, en l'apartat de: **Schedule" allà és on podrem assginar una data o hora perquè és faguin les còpies automàticament. En aquests cas he assignat que la còpia és fagui cada hora de tots els dies de la setmana.
+
 ![imatge9_windows](/tasca_02/img/win9.png)
+
+## 4.4 Còpia de seg. a Drive.
+
 ![imatge10_windows](/tasca_02/img/win10.png)
 ![imatge11_windows](/tasca_02/img/win12.png)
 ![imatge12_windows](/tasca_02/img/win13.png)
