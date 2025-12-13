@@ -81,18 +81,35 @@ Iniciarem sessió en el compte de Google on volem fer la còpia del drive, ja qu
 ![imatge14_windows](/tasca_02/img/win14.png)
 ![imatge15_windows](/tasca_02/img/win15.png)
 
-I posarem la data de cuan es volen fer les còpies i com diu la pràctica ho farem 1 cop cada dia de la setmana a les 18:00 hores.
+I posarem la data de cuan es volen fer les còpies i com diu la pràctica ho farem **1 cop cada dia de la setmana a les 18:00 hores**.
 
 ![imatge16_windows](/tasca_02/img/win17.png)
 
 ## 4.1 Comprovacions:
 
+Un cop fetes les dues còpies, tant de Windows com de Drive, farem comprovacións per comprovar que funcionen correctament els backups, per fer-ho creare un arxiu **.txt** en l'apartat de documents.
+
 ![imatge17_windows](/tasca_02/img/win18.png)
+
+Comprovem que s'ha creat correctament i l'eliminem.
+
 ![imatge18_windows](/tasca_02/img/win19.png)
+
+Un cop eliminat entrarem al duplicati escollirem el backup local de windows creat anterioment, localitzarem els tres puntets que surten just al cantó de cada backup, i li farem clic a **"Restore"**.
+
 ![imatge19_windows](/tasca_02/img/win20.png)
+
+Seguidament ens preguntarà quin arxius o directoris volem restaurar, nosaltres com hem creat l'arixu a **usuari_21 > documents** escollirem aquella localització.
+
 ![imatge20_windows](/tasca_02/img/win21.png)
+
+Un cop fet això, veurem que els arixus o arxiu que tenim s'aniran restaurant, això depent molt dels arxius que tinguem, si estem recuperant molts arxius tardarà molt, pero en el nostra cas com era un **.txt** sense res dins, va tardar poc.
+
+Veurem que l'arxius s'haurà restaurat correctament, i si anem al segon disc, això no vaig fer captura, però veurem que s'han creat logs o registres de duplicati.
+
 ![imatge21_windows](/tasca_02/img/win22.png)
-![imatge22_windows](/tasca_02/img/win23.png)
+
+I si fem 
 
 ---
 
