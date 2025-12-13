@@ -75,7 +75,7 @@ A la tasca anterior heu dissenyat una política de còpies de seguretat pel nost
 ![imatge1_ubuntu](/tasca_02/img/ubuntu22.png)
 ![imatge1_ubuntu](/tasca_02/img/ubuntu23.png)
 ![imatge1_ubuntu](/tasca_02/img/ubuntu24.png)
-
+![imatge1_ubuntu](/tasca_02/img/ubuntu25.png)
 
 ---
 ## 🎯 6. Conclusió tasca:
