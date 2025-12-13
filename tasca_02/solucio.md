@@ -109,7 +109,9 @@ Veurem que l'arxius s'haurà restaurat correctament, i si anem al segon disc, ai
 
 ![imatge21_windows](/tasca_02/img/win22.png)
 
-I si fem 
+I si fem tots els mateixos passos a drive, veurem que l'arxiu s'ha recuperat correcament
+
+![imatge21_windows](/tasca_02/img/logs_drive.png)
 
 ---
 
