@@ -32,7 +32,7 @@ Documenteu les **comandes utilitzades** i afegiu **captures de pantalla** per de
 ---
 
 🔗 **Enllaços útils:**
-- 📄 [Material propi: UD5. AA1. CUPS (Moodle)](https://moodle)
+- 📄 [solcuió de la tasca](/tasca_10/solucio.md)
 
 ---
 
