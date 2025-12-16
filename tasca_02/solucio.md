@@ -122,7 +122,30 @@ I si fem tots els mateixos passos a drive, veurem que l'arxiu s'ha recuperat cor
 
 ## 🐧 5. Còpia seg. servidor Linux:
 
+Començarem la segona pràctica fent la corresponent instal·lació del sistema operatiu, posteriorment, veurem quin nom ens a donat el Linux al nostre disc, en el meu cas el nom que m'ha donat a sigut:
+
+```bash
+/dev/sdb
+```
+
+Llavors un cop sapigut el disc de 10GB continuarem amb la pràctica.
+
+Seguidament farem la instal·lació del servei duplicity, amb la comanda:
+
+```bash
+sudo apt install xfsprogs duplicity -y
+```
+
 ![imatge2_ubuntu](/tasca_02/img/ubuntu2.png)
+
+Seguidament comprovem que el servei està instal·lat correctament amb un version:
+
+```bash
+duplicity --version
+```
+
+Podem veure que ens dona una versió instal·lada del servei (vol dir que està instal·lat).
+
 ![imatge3_ubuntu](/tasca_02/img/ubuntu3.png)
 ![imatge4_ubuntu](/tasca_02/img/ubuntu4.png)
 ![imatge5_ubuntu](/tasca_02/img/ubuntu5.png)
