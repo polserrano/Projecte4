@@ -130,13 +130,15 @@ Començarem la segona pràctica fent la corresponent instal·lació del sistema 
 
 Llavors un cop sapigut el disc de 10GB continuarem amb la pràctica.
 
+![imatge2_ubuntu](/tasca_02/img/ubuntu2.png)
+
 Seguidament farem la instal·lació del servei duplicity, amb la comanda:
 
 ```bash
 sudo apt install xfsprogs duplicity -y
 ```
 
-![imatge2_ubuntu](/tasca_02/img/ubuntu2.png)
+![imatge3_ubuntu](/tasca_02/img/ubuntu3.png)
 
 Seguidament comprovem que el servei està instal·lat correctament amb un version:
 
@@ -146,7 +148,6 @@ duplicity --version
 
 Podem veure que ens dona una versió instal·lada del servei (vol dir que està instal·lat).
 
-![imatge3_ubuntu](/tasca_02/img/ubuntu3.png)
 ![imatge4_ubuntu](/tasca_02/img/ubuntu4.png)
 ![imatge5_ubuntu](/tasca_02/img/ubuntu5.png)
 ![imatge6_ubuntu](/tasca_02/img/ubuntu6.png)
