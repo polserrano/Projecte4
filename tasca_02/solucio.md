@@ -318,6 +318,37 @@ sudo umount /media/backup
 
 Seguidament crearem un script amb el nom de: **"fullbackup.sh"** a **/usr/local/bin**. El que fa aquests script és una còpia de seguretat completa del directori **/home** amb cap a **/media/backup/homebackup**, registra el procés en un log i desmunta el disc.
 
+Script transcrit:
+
+```bash
+sudo tee /usr/local/bin/fullbackup.sh > /dev/null << 'EOF'
+export PASSPHRASE="1234"
+
+DEVICE="/dev/sdb"
+MOUNTPOINT="/media/backup"
+DEST="file://$MOUNTPOINT/homebackup"
+LOG="/var/log/fullbackup.log"
+
+echo "$(date '+%F %T') - START full backup" >> "$LOG"
+
+mount "$DEVICE" "$MOUNTPOINT"
+if [ $? -ne 0 ]; then
+    echo "$(date '+%F %T') - ERROR mounting $DEVICE" >> "$LOG"
+    exit 1
+fi
+
+duplicity full /home "$DEST" >> "$LOG" 2>&1
+RC=$?
+
+umount "$MOUNTPOINT"
+
+echo "$(date '+%F %T') - END full backup (rc=$RC)" >> "$LOG"
+exit $RC
+EOF
+
+sudo chmod +x /usr/local/bin/fullbackup.sh
+```
+
 ![imatge22_ubuntu](/tasca_02/img/ubuntu22.png)
 
 Quan exetucem el crontab o alguna comanda que relacioni el crontab ens apareixara un menú, per root. on haurem de seleccionar un editor.
@@ -343,6 +374,38 @@ El que estem fent aquí és programant que el script **fullbackup.sh** faci una 
 Seguidament i el últim pas serà crear un script per els incrementals, el crearem dins de: **"/usr/local/bin/"**
 
 El que fa l'script és una còpia de seguretat incremental de **/home**, guarda tot el procés en un fitxer de registre, i finalment desmunta el dispositiu. Si hi ha algun error en el muntatge o en la còpia, ho registra i surt amb el codi d’error corresponent.
+
+Script transcrit:
+
+```bash
+sudo tee /usr/local/bin/incrementalbackup.sh > /dev/null << 'EOF'
+#!/bin/bash
+export PASSPHRASE="1234"
+
+DEVICE="/dev/sdb"
+MOUNTPOINT="/media/backup"
+DEST="file://$MOUNTPOINT/homebackup"
+LOG="/var/log/incrementalbackup.log"
+
+echo "$(date '+%F %T') - START incremental backup" >> "$LOG"
+
+mount "$DEVICE" "$MOUNTPOINT"
+if [ $? -ne 0 ]; then
+    echo "$(date '+%F %T') - ERROR mounting $DEVICE" >> "$LOG"
+    exit 1
+fi
+
+duplicity incremental /home "$DEST" >> "$LOG" 2>&1
+RC=$?
+
+umount "$MOUNTPOINT"
+
+echo "$(date '+%F %T') - END incremental backup (rc=$RC)" >> "$LOG"
+exit $RC
+EOF
+
+sudo chmod +x /usr/local/bin/incrementalbackup.sh
+```
 
 ![imatge25_ubuntu](/tasca_02/img/ubuntu25.png)
 
