@@ -24,6 +24,11 @@ Començarem primer de tot creant les dues màquines, en el meu cas en el client 
 ![imatge1](/tasca_10/img/1.png)
 ![imatge2](/tasca_10/img/2.png)
 
+Farem una actualització dels paquets que es troben desactualitzats o no instal·lats:
+
+```bash
+a
+```
 
 ![imatge3](/tasca_10/img/3.png)
 ![imatge4](/tasca_10/img/4.png)
