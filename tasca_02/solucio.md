@@ -314,6 +314,7 @@ Seguidament crearem un script amb el nom de: **"fullbackup.sh"** a **/usr/local/
 
 ![imatge22_ubuntu](/tasca_02/img/ubuntu22.png)
 
+Quan exetucem el crontab o alguna comanda que relacioni el crontab ens apareixara un menú, per root. on haurem de seleccionar un editor.
 
 ![imatge23_ubuntu](/tasca_02/img/ubuntu23.png)
 
