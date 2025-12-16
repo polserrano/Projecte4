@@ -198,9 +198,36 @@ ls -l /home
 ```
 
 ![imatge9_ubuntu](/tasca_02/img/ubuntu9.png)
+
+Seguidament crearem els arxius com demana la pràctica, recordeu de no crear-los amb **"touch"** ja que no podreu configurar-los una mida i amb **"truncate"** si que li podrem assignar la mida que volguem al arxiu o arxius que estiguem creant.
+
+```bash
+truncate -s 10M ~/fitxer1.bin
+```
+
 ![imatge10_ubuntu](/tasca_02/img/ubuntu10.png)
+
+Com abans he volgut assegurar-me de que els usuaris estaven ben creats, ara he volgut assegurar-me amb el arxius per això he fet un:
+
+```
+ls -l
+```
+
 ![imatge11_ubuntu](/tasca_02/img/ubuntu11.png)
+
+Ara he volgut crear una carpeta dins de la carpeta de backup perquè si a futur vull fer diferents backups, on allà creariem cada cop un carpeta per cada backup que volguessim fer.
+
+Seguidament el que fem amb la comanda:
+
+```bash
+sudo -E duplicity /home file:///media/backup/backup_carpeta
+```
+
+El que fem és una còpia de seguretat incremental de **/home** guardant-la a **file:///media/backup/backup_carpeta**, executada amb permisos de superusuari
+
 ![imatge12_ubuntu](/tasca_02/img/ubuntu12.png)
+
+
 ![imatge13_ubuntu](/tasca_02/img/ubuntu13.png)
 ![imatge14_ubuntu](/tasca_02/img/ubuntu14.png)
 ![imatge15_ubuntu](/tasca_02/img/ubuntu15.png)
