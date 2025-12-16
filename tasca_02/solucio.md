@@ -227,9 +227,22 @@ El que fem és una còpia de seguretat incremental de **/home** guardant-la a **
 
 ![imatge12_ubuntu](/tasca_02/img/ubuntu12.png)
 
+Fem un **"ls"** a la carpeta on hem desat localment la còpia i podrem veure que hi han arxius de **duplicity**, això confirma que ha pogut fer part o tota la còpia i que ha dasat correctament la còpia on li hem dit.
 
 ![imatge13_ubuntu](/tasca_02/img/ubuntu13.png)
+
+Seguidament amb la comanda tant llarga:
+
+```bash
+sudo duplicity collection-status file:///media/baclup/backup_carpeta
+```
+
+El que estem fent és mostra l’estat de la col·lecció de còpies de seguretat guardades a **/media/backup/backup_carpeta**, incloent quines còpies existeixen i els seus intervals, aquesta comanda ens serveix per veure si la còpia s'ha fet i podem veure que detecta que s'ha fet una còpia de **"full"**, bàsicament s'està referin a la de **/home** feta anteriorment.
+
 ![imatge14_ubuntu](/tasca_02/img/ubuntu14.png)
+
+Seguidament toca la part de comprovar el funcionament d'aquests servei
+
 ![imatge15_ubuntu](/tasca_02/img/ubuntu15.png)
 ![imatge16_ubuntu](/tasca_02/img/ubuntu16.png)
 ![imatge17_ubuntu](/tasca_02/img/ubuntu17.png)
