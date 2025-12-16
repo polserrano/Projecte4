@@ -284,7 +284,22 @@ Seguidament crearem un arxiu per fer la còpia incremental, per això crearem un
 
 ![imatge18_ubuntu](/tasca_02/img/ubuntu18.png)
 
+Ara amb la comanda:
+
+```bash
+sudo -E duplicity incremental /home file:///media/backup/backup_carpeta
+```
+
+El que estem fent aquí és una còpia incremental del directori /home a la carpeta /media/backup/backup_carpeta amb permísos de root.
+
 ![imatge19_ubuntu](/tasca_02/img/ubuntu19.png)
+
+Ara comprovem que la còpia incremental s'ha fet correctament i s'ha desat en el directori correctamen amb la comanda:
+
+```bash
+sudo duplicity collection-status file:///media/backup/backup_carpeta
+```
+
 ![imatge20_ubuntu](/tasca_02/img/ubuntu20.png)
 ![imatge21_ubuntu](/tasca_02/img/ubuntu21.png)
 ![imatge22_ubuntu](/tasca_02/img/ubuntu22.png)
