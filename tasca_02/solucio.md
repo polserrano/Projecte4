@@ -241,9 +241,39 @@ El que estem fent és mostra l’estat de la col·lecció de còpies de segureta
 
 ![imatge14_ubuntu](/tasca_02/img/ubuntu14.png)
 
-Seguidament toca la part de comprovar el funcionament d'aquests servei
+Seguidament toca la part de comprovar el funcionament d'aquests servei, per això eliminarem un arxiu per despres recuperar-lo, per eliminar el arxiu:
+
+```bash
+sudo rm ~/fitxer1.bin
+```
+
+I despres amb un **"ls"** comprovem que s'ha borrat,
 
 ![imatge15_ubuntu](/tasca_02/img/ubuntu15.png)
+
+Ara un cop borrat l'arxiu tocarà la part de usar el servei, començarem amb la comanda:
+
+```bash
+sudo -E duplicity restore \
+```
+
+I seguidament jo afageixo tres comandes:
+
+```bash
+--path-to-restore home/usuari21/fitxer1.bin
+```
+Indica el camí dins la còpia de seguretat del fitxer que volem restaurar.
+
+```bash
+file:///media/backup/backup_carpeta
+```
+És la ubicació on es troba la còpia de seguretat (en aquest cas, una carpeta local).
+
+```bash
+/home/usuari21/fitxer1.bin
+```
+És el camí on es restaurarà el fitxer al sistema actual.
+
 ![imatge16_ubuntu](/tasca_02/img/ubuntu16.png)
 ![imatge17_ubuntu](/tasca_02/img/ubuntu17.png)
 ![imatge18_ubuntu](/tasca_02/img/ubuntu18.png)
