@@ -1,4 +1,4 @@
-# 🖨️ Introducció a la tasca: Servidor d’Impressió Centralitzat amb CUPS
+# 🖨️ Servidor d’Impressió Centralitzat amb CUPS
 
 Molt bé, equip! 👋  
 
