@@ -276,7 +276,13 @@ file:///media/backup/backup_carpeta
 
 ![imatge16_ubuntu](/tasca_02/img/ubuntu16.png)
 
-Finalment fem un **"ls"** al home del usuari nostre i podrem veure que l'arxiu s'ha recuperat correctament, això si, com a root, ja que a la hora de posar les comandes li hem donat el permís **"sudo"**
+Finalment fem un **"ls"** al home del usuari nostre i podrem veure que l'arxiu s'ha recuperat correctament, això si, com a root, ja que a la hora de posar les comandes li hem donat el permís **"sudo"**. Si en algun cas volem canviar el editor, amb la comanda:
+
+```bash
+select-editor
+```
+
+Podrem canviar-ho sense cap problema.
 
 ![imatge17_ubuntu](/tasca_02/img/ubuntu17.png)
 
@@ -333,11 +339,17 @@ Allà afegirem la línia:
 El que estem fent aquí és programant que el script **fullbackup.sh** faci una còpia de seguretat **cada diumenge a les 23:00** de manera automàtica.
 
 ![imatge24_ubuntu](/tasca_02/img/ubuntu24.png)
+
+Seguidament i el últim pas serà crear un script per els incrementals, el crearem dins de: **"/usr/local/bin/"**
+
+El que fa l'script és una còpia de seguretat incremental de **/home**, guarda tot el procés en un fitxer de registre, i finalment desmunta el dispositiu. Si hi ha algun error en el muntatge o en la còpia, ho registra i surt amb el codi d’error corresponent.
+
 ![imatge25_ubuntu](/tasca_02/img/ubuntu25.png)
 
 ---
 ## 🎯 6. Conclusió tasca:
 
+En conclusió, crec que aquesta tasca ha estat molt completa i útil, ja que combina configuració de sistemes, eines reals de còpia de seguretat, automatització i comprovació de resultats. A més, el procediment documentat pot servir perfectament com a guia tècnica perquè el personal del client pugui implantar i mantenir el pla de còpies de seguretat amb garanties de seguretat i continuïtat del servei.
 
 ---
 # Gràcies per la vostra atenció!
