@@ -170,8 +170,33 @@ i un cop creat el muntarem en el disc dins de:
 ```
 
 ![imatge6_ubuntu](/tasca_02/img/ubuntu6.png)
+
+I amb la següent comanda:
+
+```bash
+df | grep /media/backup
+```
+
+El que fem es mostrar l’ús d’espai del punt de muntatge, amb això podriem comprovar si cuan l'hem formatat abans a sortit bé o malament.
+
 ![imatge7_ubuntu](/tasca_02/img/ubuntu7.png)
+
+Ara pasarem a la part de la creació dels usuaris com diu la tasca, amb la comanda:
+
+```bash
+sudo adduser usuari1
+```
+
+Per configuracions de Linux li podrem configurar numero de telefon, nom complert del usuari, numero de habitació i molt més, com la pràctica a realitzar és una cosa molt bàsica a configurar no he volgut argumentar ni configurar a fons cada usuari.
+
 ![imatge8_ubuntu](/tasca_02/img/ubuntu8.png)
+
+Ara volia acabar de assegurar-me de que els usuaris s'havien creat correctament, i així és, es podria fer amb la comanda:
+
+```
+ls -l /home
+```
+
 ![imatge9_ubuntu](/tasca_02/img/ubuntu9.png)
 ![imatge10_ubuntu](/tasca_02/img/ubuntu10.png)
 ![imatge11_ubuntu](/tasca_02/img/ubuntu11.png)
