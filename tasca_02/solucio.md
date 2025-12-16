@@ -149,7 +149,26 @@ duplicity --version
 Podem veure que ens dona una versió instal·lada del servei (vol dir que està instal·lat).
 
 ![imatge4_ubuntu](/tasca_02/img/ubuntu4.png)
+
+Seguidament amb la comanda que apareix en la imatge el que estem fent es formatar el disc, bàsicament el que farà serà:
+
+- S'esborraran totes les dades existents a /dev/sdb.
+- S'inicialitzarà l'estructura del sistema de fitxers XFS perquè el disc pugui ser muntat i usat.
+
 ![imatge5_ubuntu](/tasca_02/img/ubuntu5.png)
+
+Ara crearem el repositori base:
+
+```bash
+sudo mkdir -p /media/backup
+```
+
+i un cop creat el muntarem en el disc dins de:
+
+```bash
+/media/backup
+```
+
 ![imatge6_ubuntu](/tasca_02/img/ubuntu6.png)
 ![imatge7_ubuntu](/tasca_02/img/ubuntu7.png)
 ![imatge8_ubuntu](/tasca_02/img/ubuntu8.png)
