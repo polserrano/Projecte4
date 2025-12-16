@@ -301,9 +301,36 @@ sudo duplicity collection-status file:///media/backup/backup_carpeta
 ```
 
 ![imatge20_ubuntu](/tasca_02/img/ubuntu20.png)
+
+El següent pas serà desmontar el directori **/media/backup**:
+
+```bash
+sudo umount /media/backup
+```
+
 ![imatge21_ubuntu](/tasca_02/img/ubuntu21.png)
+
+Seguidament crearem un script amb el nom de: **"fullbackup.sh"** a **/usr/local/bin**. El que fa aquests script és una còpia de seguretat completa del directori **/home** amb cap a **/media/backup/homebackup**, registra el procés en un log i desmunta el disc.
+
 ![imatge22_ubuntu](/tasca_02/img/ubuntu22.png)
+
+
 ![imatge23_ubuntu](/tasca_02/img/ubuntu23.png)
+
+Seguidament entrarem a:
+
+```bash
+sudo nano /tmp/crontab.wap0Wu/crontab
+```
+
+Allà afegirem la línia:
+
+```bash
+0 23 * * 0 /usr/local/bin/fullbackup.sh
+```
+
+El que estem fent aquí és programant que el script **fullbackup.sh** faci una còpia de seguretat **cada diumenge a les 23:00** de manera automàtica.
+
 ![imatge24_ubuntu](/tasca_02/img/ubuntu24.png)
 ![imatge25_ubuntu](/tasca_02/img/ubuntu25.png)
 
