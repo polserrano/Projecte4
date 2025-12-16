@@ -275,8 +275,15 @@ file:///media/backup/backup_carpeta
 És el camí on es restaurarà el fitxer al sistema actual.
 
 ![imatge16_ubuntu](/tasca_02/img/ubuntu16.png)
+
+Finalment fem un **"ls"** al home del usuari nostre i podrem veure que l'arxiu s'ha recuperat correctament, això si, com a root, ja que a la hora de posar les comandes li hem donat el permís **"sudo"**
+
 ![imatge17_ubuntu](/tasca_02/img/ubuntu17.png)
+
+Seguidament crearem un arxiu per fer la còpia incremental, per això crearem un arxiu amb el **"truncate"** explicat anteriorment amb una mida de **4M**.
+
 ![imatge18_ubuntu](/tasca_02/img/ubuntu18.png)
+
 ![imatge19_ubuntu](/tasca_02/img/ubuntu19.png)
 ![imatge20_ubuntu](/tasca_02/img/ubuntu20.png)
 ![imatge21_ubuntu](/tasca_02/img/ubuntu21.png)
