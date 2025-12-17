@@ -27,14 +27,40 @@ Començarem primer de tot creant les dues màquines, en el meu cas en el client 
 Farem una actualització dels paquets que es troben desactualitzats o no instal·lats:
 
 ```bash
-a
+sudo apt upgrade && apt update -y
 ```
 
 ![imatge3](/tasca_10/img/3.png)
+
+Ara seguidament instal·larem el servei amb el que realitzarem la pràctica, cups:
+
+```bash
+sudo apt install cupds-pdf -y
+```
+
 ![imatge4](/tasca_10/img/4.png)
+
+Seguidament instal·larem el cups pero la versió per PDF, ho instal·larem amb la comanda:
+
+```bash
+sudo apt install cupds-pdf -y
+```
+
 ![imatge5](/tasca_10/img/5.png)
+
+Seguidament un cop instal·lat el servei, entrarem al arxiu de configuració:
+
+```bash
+sudo nano /etc/cups/cupsd.conf
+```
+
+Aqui modificarem diverses línies com: el port on volem obrir el cups, veure les impresores compratides en una xarxa local, el accés al servidor i finalment el accés a les pàgines del administració:
+
 ![imatge6](/tasca_10/img/6.png)
 ![imatge7](/tasca_10/img/7.png)
+
+d
+
 ![imatge8](/tasca_10/img/8.png)
 ![imatge9](/tasca_10/img/9.png)
 ![imatge10](/tasca_10/img/10.png)
