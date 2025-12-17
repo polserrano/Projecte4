@@ -21,7 +21,7 @@ Per aquest motiu, la direcció ha decidit estandarditzar una eina oficial d’as
 
 **5. Conclusió de la tasca**
 
-## 3. Anàlisi i comparativa:
+## 📋 3. Anàlisi i comparativa:
 
 
 ## 🌐 4. Fase pràctica:
