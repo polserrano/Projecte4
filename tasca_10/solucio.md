@@ -59,17 +59,58 @@ Aqui modificarem diverses línies com: el port on volem obrir el cups, veure les
 ![imatge6](/tasca_10/img/6.png)
 ![imatge7](/tasca_10/img/7.png)
 
-d
+Seguidament reiniciem el servei perque s'apliquin tots el canvis i veiem el estat del servei per veure si esta malament configurat.
+
+```bash
+sudo systemctl restart cups && systemctl status cups
+```
 
 ![imatge8](/tasca_10/img/8.png)
+
+Continuarem fent un:
+
+```bash
+ip a
+```
+
+Per veure la ip la que posarem al buscador del client per entrar a la configuració del nostre cups.
+
 ![imatge9](/tasca_10/img/9.png)
+
+Un cop dins ens apareixarà aquests menú, seguidament anirem a: **Administarion**
+
 ![imatge10](/tasca_10/img/10.png)
+
+Ens demanarà les credencials del servidor, això ho fa, ja que a la hora de entrar en la pestanya de **"Administarion"** estarem modificant i editant paràmetres importants i d'administrador, per això cups vol confirmar que som nosaltres.
+
 ![imatge11](/tasca_10/img/11.png)
+
+El primer cop en iniciar sessió en la pestanya **"Administarion"** ens dira que necessitem donar-li el permís al usuaris per accederir a la pestanya **"Administarion"**.
+
 ![imatge12](/tasca_10/img/12.png)
+
+Per habilitar l'accés del pas anterior, anirem al servidor i farem que l'usuari: **"server21"** tingui accés de superusuari. Ho farem amb la comanda:
+
+```bash
+sudo usermod -aG lpadmin server21
+```
+
 ![imatge13](/tasca_10/img/13.png)
+
+Un cop hàguim posat el usuari del nostre servidor com a un superusuari, tornarem a iniciar la sessió dins del cups en l'aprtat de **"Administarion"** i veurem que tenim accés. Un cop dins crearem la impresora.
+
 ![imatge14](/tasca_10/img/14.png)
+
+Sobretot hi posarem que sigui una **impresora local**.
+
 ![imatge15](/tasca_10/img/15.png)
+
+Seguidament posarem la localització, que serà el nom del nostre servidor, i habilitarem el boto de compartir aquesta impresora (perquè els arxius que imprimim es copin al servidor).
+
 ![imatge16](/tasca_10/img/16.png)
+
+Seguidament ens dirà de quina marca volem crear la impresora, li direm que volem del tipus **Generic** i seguidament li donarem a **Add printer** per activar la impresora.
+
 ![imatge17](/tasca_10/img/17.png)
 ![imatge18](/tasca_10/img/18.png)
 ![imatge19](/tasca_10/img/19.png)
