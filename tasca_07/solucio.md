@@ -1,4 +1,4 @@
-# 💻 T07: Serveis d’assistència remota
+# 💻 T07: Serveis d’assistència remota (RUSTDESK)
 
 - **Autors:** Pol Serrano i Pau Constanseu
 - **Data:** 17/12/2025
