@@ -77,7 +77,21 @@ Un cop instal·lat en ambdues màquines, com es mostra en aquesta caputra del cl
 Un cop en el entorn del client hàguim posat les credencials del client li farem clic al botó: **Conectar**.
 
 ![imatge7](/tasca_07/img/7.png)
+
+Finalment podem veure com amb tant sols uns clics i posar un codi haurem fet la connexió, molt fàcil.
+
 ![imatge8](/tasca_07/img/8.png)
+
+En aquesta captura us he volgut posar el menú que incorpora **RustDesk**, on podem fer diferentes accions com:
+
+- **Teclat i ratolí:** permet o bloqueja el control remot.
+- **Porta-retalls:** copiar i enganxar entre equips.
+- **Àudio:** escoltar el so del PC remot.
+- **Transferència d’arxius:** enviar i rebre fitxers.
+- **Reiniciar:** reiniciar l’equip remot.
+- **Vídeo / pantalla:** veure (o gravar) la pantalla.
+- **Bloqueig / privacitat:** bloqueja l’usuari local o activa pantalla negra.
+
 ![imatge9](/tasca_07/img/9.png)
 ![imatge10](/tasca_07/img/10.png)
 ![imatge11](/tasca_07/img/11.png)
