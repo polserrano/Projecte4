@@ -23,6 +23,36 @@ Per aquest motiu, la direcció ha decidit estandarditzar una eina oficial d’as
 
 ## 📋 3. Anàlisi i comparativa:
 
+Ara analitzarem diferents eines d’assistència remota disponibles al mercat i seleccionar la més adequada per a EverPia, tenint en compte la **facilitat d’ús per al client**, la **disponibilitat en sistemes operatius** i el **model de preu per a ús comercial**.
+
+### Eines Analitzades
+Les quatre solucions seleccionades són:
+1. **TeamViewer**
+2. **AnyDesk**
+3. **Google Remote Desktop**
+4. **RustDesk** (eina escollida per a l’anàlisi i possible adopció)
+
+---
+
+### Taula Comparativa
+
+| Criteri | TeamViewer | AnyDesk | Google Remote Desktop | RustDesk |
+|-------|-----------|---------|----------------------|----------|
+| **Facilitat d’ús** | Requereix instal·lació (o versió QuickSupport). L’ID i contrasenya són fàcils de compartir. | Portable disponible. ID curt i fàcil de comunicar. Molt intuïtiu. | Requereix compte Google i configuració prèvia. Menys flexible per a assistència puntual. | Portable disponible. Connexió mitjançant ID o codi. Interfície senzilla per a usuaris no tècnics. |
+| **Disponibilitat (SO)** | Windows, macOS, Linux, Android, iOS | Windows, macOS, Linux, Android, iOS | Windows, macOS, Linux (via navegador Chrome) | Windows, macOS, Linux, Android, iOS |
+| **Model de Preu** | No gratuït per a ús comercial. Cost elevat per tècnic. | No gratuït per a ús comercial. Cost mitjà per llicència. | Gratuït, però amb funcionalitats molt limitades per a entorns professionals. | Gratuït i **open-source**. Opció d’autoallotjament sense cost de llicència. Versions de pagament opcionals amb suport. |
+| **Limitacions principals** | Cost elevat, detecció agressiva d’ús comercial. | Llicència obligatòria per a ús professional continuat. | No pensat per a suport tècnic professional (sense ID temporal). | Requereix configuració inicial si s’autoallotja el servidor. |
+
+---
+
+### Recomanació:
+
+Després de l’anàlisi comparativa, **RustDesk** és la millor opció per a EverPia pels motius següents:
+
+- **Equilibri entre cost i funcionalitat**: és gratuït per a ús comercial i no imposa limitacions artificials.
+- **Compatibilitat:** (Windows, macOS i Linux), un requisit clau per a EverPia.
+- **Facilitat per al client**: permet connexions ràpides mitjançant ID o versió portable, ideal per a usuaris no tècnics.
+- **Control i seguretat**: en ser open-source, permet a EverPia autoallotjar el servidor i tenir control total sobre les dades.
 
 ## 🌐 4. Fase pràctica:
 
