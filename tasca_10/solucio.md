@@ -112,11 +112,39 @@ Seguidament posarem la localització, que serà el nom del nostre servidor, i ha
 Seguidament ens dirà de quina marca volem crear la impresora, li direm que volem del tipus **Generic** i seguidament li donarem a **Add printer** per activar la impresora.
 
 ![imatge17](/tasca_10/img/17.png)
+
+Podrem veure que un cop li hàguim fet click a **Add printer** ens apareixarà el següent missatge, on ens dirà que s'ha creat i afegit correctament la impresora amb el nom de:
+
+```bash
+Virtual_PDF_Printer
+```
+
 ![imatge18](/tasca_10/img/18.png)
+
+Ara entrarem desde el client a: **Configuració > Impresores** i veurem que ens surt la impresora conectada automàticament.
+
 ![imatge19](/tasca_10/img/19.png)
+
+Ara tocara les comprovacions per veure si fa bé les impresions, jo en el meu cas e creat dos arxius de prova .odp.
+
 ![imatge20](/tasca_10/img/20.png)
+
+Seguidament els imprimim a la impresora creada, veiem que els nom coincideixin.
+
 ![imatge21](/tasca_10/img/21.png)
+
+Un cop imprimits els arxius comprovem que desde cups els hi a arrivat la impresió, entran a: **Printers > Jobs > Show All Jobs** i podrem veure que s'han impres dos arxius, que són els que e impres anteriorment.
+
 ![imatge22](/tasca_10/img/22.png)
+
+Finalment, desde el servidor farem un:
+
+```bash
+ls -all
+```
+
+Per veure si la carpeta **PFD** creada per cups s'ha creat dins del servidor, i així és. I seguidament entrarem al directori **PDF** i veurem si s'ha imprés al servidor l'arxiu, i com podem veure ja surt l'arxiu.
+
 ![imatge22](/tasca_10/img/23.png)
 
 ---
