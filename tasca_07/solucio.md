@@ -60,12 +60,22 @@ Començarem primer de tot instal·lant els dos entorns/màquines, en aquests cas
 
 ![imatge1](/tasca_07/img/1.png)
 
+Seguirem amb la instal·lació de l'eina, ho farem en les **dues màquines**, en el nostre cas, com estem utilitzan l'eina de rust desk entrarem a: https://rustdesk.com/ i farem la instal·lació com es mostra a la imatge.
 
 ![imatge2](/tasca_07/img/2.png)
 ![imatge3](/tasca_07/img/3.png)
 ![imatge4](/tasca_07/img/4.png)
+
+Un cop fets els passos i com es mostra a la imatge veurem que tindrem el **RustDesk** completament instal·lat, aquesta captura és la del tècnic, però en el client li sortirà el mateix. Haig de recordar que el tècnic pot usar el software de **RustDesk** per fer la pràctica.
+
 ![imatge5](/tasca_07/img/5.png)
+
+Un cop instal·lat en ambdues màquines, com es mostra en aquesta caputra del client haurem de copiar o passar-nos el codi i la contrasenya al tècnic. El codi i la contrasenya és troben on les fletxes de la imatge.
+
 ![imatge6](/tasca_07/img/6.png)
+
+Un cop en el entorn del client hàguim posat les credencials del client li farem clic al botó: **Conectar**.
+
 ![imatge7](/tasca_07/img/7.png)
 ![imatge8](/tasca_07/img/8.png)
 ![imatge9](/tasca_07/img/9.png)
