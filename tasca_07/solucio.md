@@ -93,13 +93,22 @@ En aquesta captura us he volgut posar el menú que incorpora **RustDesk**, on po
 - **Bloqueig / privacitat:** bloqueja l’usuari local o activa pantalla negra.
 
 ![imatge9](/tasca_07/img/9.png)
+
+I també desde el client, li podrem donar permisos de administració al tècnic, això serveix per si el tècnic ha de executar comandes, aplicacions o algun tipus de acció amb persmisos de administrador, doncs, si li habilitats la opció no caldrà que el client hagui de acceptar missatges de windows quan el tècnic està treballant.
+
 ![imatge10](/tasca_07/img/10.png)
+
+**RustDesk** té un sistema de protecció que cuan li fas un click al botó de: **Elevar permisos** has de tornar a fer un altre clic per acbar de confirmar que vols otorgar-li aquells permísos al tècnic. 
+
 ![imatge11](/tasca_07/img/11.png)
+
+Finalmet hem volgut usar una funció de **xat** per veure si el funcionament era correcte, i sí, funciona correctament.
+
 ![imatge12](/tasca_07/img/12.png)
 
 ## 💥 5. Conclusió de la tasca:
 
-Jo crec que RustDesk és una molt bona opció per a EverPia per oferir assistència remota. Tot i que només he fet servir aquesta eina, m’ha semblat fàcil d’utilitzar tant per al tècnic com per a l’usuari final, compatible amb diferents sistemes operatius i prou segura per a tasques de Helpdesk. A més, el fet de ser de codi obert i no requerir costos elevats la fa especialment adequada per al suport remot ràpid i eficient.
+Creiem que RustDesk és una molt bona opció per a EverPia per oferir assistència remota. Tot i que només he fet servir aquesta eina, m’ha semblat fàcil d’utilitzar tant per al tècnic com per a l’usuari final, compatible amb diferents sistemes operatius i prou segura per a tasques de Helpdesk. A més, el fet de ser de codi obert i no requerir costos elevats la fa especialment adequada per al suport remot ràpid i eficient.
 
 ---
 # Gràcies per la vostra atenció
