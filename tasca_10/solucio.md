@@ -50,6 +50,7 @@ a
 ![imatge20](/tasca_10/img/20.png)
 ![imatge21](/tasca_10/img/21.png)
 ![imatge22](/tasca_10/img/22.png)
+![imatge22](/tasca_10/img/23.png)
 
 ---
 # Gràcies per la vostra atenció!
