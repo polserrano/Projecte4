@@ -30,7 +30,7 @@ Les quatre solucions seleccionades són:
 1. **TeamViewer**
 2. **AnyDesk**
 3. **Google Remote Desktop**
-4. **RustDesk** (eina escollida per a l’anàlisi i possible adopció)
+4. **RustDesk**
 
 ---
 
