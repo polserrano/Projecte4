@@ -119,13 +119,57 @@ Seguidament entrarem al arxiu:
 sudo nano /etc/exports
 ```
 
-Aqui afegirem 
+Aqui afegirem les dues següents liníes, per poder habilitar les carpetes i poguer-les exportales.
 
 ![imatge](/tasca_09/img/17.png)
+
+Ara, amb la comanda:
+
+```bash
+sudo exportfs -u
+```
+
+Podrem comprovar si les carpetes exportades en l'arxiu del pas enterior estan correctament configurats i exportats. Com podeu veure surten les dues carpetes, les que hem introduit abans.
+
 ![imatge](/tasca_09/img/16.png)
+
+Abans de anar cap al zorin en l'arxiu de: 
+
+```bash
+sudo nano /etc/exports
+```
+
+Podrem afegir al final de les dues línies posades abans: **"no_root_squash"**, bàsicament és una opció de NFS que serveix per no limitar els privilegis de l’usuari root del client. Un cop fet, ho guardarem i pasarem cap al client.
+
 ![imatge](/tasca_09/img/18.png)
+
+Seguidament desmuntarem la carpeta admin_tools, amb la comanda:
+
+```bash
+sudo umount /mnt/admin_tools
+```
+
+I seguidament, muntarem un recurs NFS que està al servidor remot al nostre propi sistema local, ho farem amb:
+
+```bash
+sudo mount -t nfs 192.168.56.109:/srv/nfs/admin_tools /mnt/admin_tools
+```
+
 ![imatge](/tasca_09/img/19.png)
+
+Seguidament farem un **"ls"** per veure si la carpeta admin_tools està copiada correctament i està l'arxiu comprovant que verifica que està copiada.
+
+```bash
+ls -l /mnt/admin_tools/test_no_root_squash.txt
+```
 ![imatge](/tasca_09/img/20.png)
+
+Seguidament i últim pas de aquesta part, instal·larem el NFS en la màquina del client. Per fer-ho ho farem mitjançant la comanda:
+
+```bash
+sudo apt install nfs-common
+```
+
 ![imatge](/tasca_09/img/21.png)
 
 ---
