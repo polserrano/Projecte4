@@ -203,15 +203,53 @@ I en aquesta part final comprovo que els arxius creats abans estàn correctament
 ---
 ## ⚙️ 6. Fase 4: L'Exportació de Desenvolupament
 
+Seguidament començarem la part de exportació de desenvolupament, on començarem entrant al arxiu:
+
+```bash
+sudo nano /etc/exports
+```
+
+Afegirem les comandes, en el meu cas:
+
+```bash
+/srv/nfs/admin_tools 192.168.56.0/24(rw,sync,no_subtree_check,no_root_squash)
+/srv/nfs/admin_tools 192.168.56.100(ro,sync,no_subtree_check,no_root_squash)
+```
+
+Les afegim ja que serveixen per definir permisos més específics sobre el mateix directori NFS.
+
 ![imatge](/tasca_09/img/27.png)
+
+Simplement aquí comprovem que estan correctament exportades, que no hi ha ningún error.
+
 ![imatge](/tasca_09/img/28.png)
-![imatge](/tasca_09/img/29.png)
+
+Ara entrarem o iniciarem sessió en el perfil de: **dev01** i crearem un arxiu i veiem que ens el deixa crear sense cap tipus de problema.
+
 ![imatge](/tasca_09/img/30.png)
+
+Pasarem al arxiu de configuració de xarxa:
+
+```bash
+sudo nano /etc/netplan/50-cloud-init.yaml
+```
+
+i posarem que la nostra ip acabi amb **.100** ja que si recordem abans, hem introduit en el arxiu: **etc/exports** haviem introduit dues noves exportacions, una ip que acabava en **.0** (xarxa) i una altre **.100** (màquina) i com els hi haviem posat només permisos de **lectura** en la màquina comprovarem si els canvis que hem fet están correctament, es a dir que si intentem crear un arxiu un cop configurada la xarxa no ens hauria de deixar.
+
 ![imatge](/tasca_09/img/31.png)
+
+Comprovem amb un:
+
+```bash
+ip a
+```
+
+Que la ip cambiada està correctament.
+
 ![imatge](/tasca_09/img/32.png)
-![imatge](/tasca_09/img/33.png)
-![imatge](/tasca_09/img/34.png)
-![imatge](/tasca_09/img/35.png)
+
+I ara com hem dit, iniciarem sessió a: **dev01** i com podrem veure si intentem crear un arxiu sortirà que tindrem permisos denegats (ja que només tenim de lectura), això ens confirma que està correctament introduida la comanda.
+
 ![imatge](/tasca_09/img/36.png)
 
 ---
