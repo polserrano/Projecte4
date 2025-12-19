@@ -255,6 +255,23 @@ I ara com hem dit, iniciarem sessió a: **dev01** i com podrem veure si intentem
 ---
 ## 🔗 7. Fase 5: Muntatge Automàtic amb /etc/fstab
 
+Finalment, un cop hàguim fet tots els passos anteriors, desde el client entrarem al arxiu, per configurar l'arxiu:
+
+```bash
+sudo nano /etc/fstab
+```
+
+Aqui afegirem dues línies:
+
+```bash
+192.168.56.109:/srv/nfs/admin_tools /mnt/admin_tools nfs defaults 0 0
+192.168.56.109:/srv/nfs/dev_projects /mnt/dev_projects nfs defaults 0 0
+```
+
+Introdueixo aquestes línies perquè necessito que dos recursos NFS diferents del servidor es muntin automàticament al client cada vegada que s’inicia el sistema. Amb la primera línia faig que el directori **/srv/nfs/admin_tools** del servidor **192.168.56.109** es munti al meu sistema al punt **/mnt/admin_tools**, de manera que sempre tinc disponibles les eines d’administració sense haver de muntar-les manualment. Amb la segona línia faig el mateix amb el directori **/srv/nfs/dev_projects**, que es munta automàticament a **/mnt/dev_projects**, permetent-me accedir als projectes de desenvolupament des del primer moment. 
+
+D’aquesta manera, separo clarament cada recurs en el seu propi punt de muntatge i garanteixo que tots dos exports NFS estiguin disponibles de forma persistent després de cada reinici del sistema.
+
 ![imatge](/tasca_09/img/37.png)
 
 ---
