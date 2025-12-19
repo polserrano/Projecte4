@@ -175,9 +175,28 @@ sudo apt install nfs-common
 ---
 ## 🗄️ 5. Fase 3: L'Exportació d'Administració
 
+Ara pasarem a la part de la exportació dels usuaris d'adminstració, llavors amb la comanda: 
+
+```bash
+showmount -e 192.168.56.109
+```
+
+El que estem fent es consultar el servidor NFS i mostra la llista de directoris exportats i qui hi pot accedir, que serien **admin_tools** i **dev_projects**.
+
 ![imatge](/tasca_09/img/22.png)
-![imatge](/tasca_09/img/23.png)
+
+Seguidament amb la comanda:
+
+```bash
+mount | grep admin_tools
+```
+
+El que faig és consultar tots els sistemes de fitxers que tinc muntats al client i filtrar només aquells que contenen admin_tools.
+
 ![imatge](/tasca_09/img/24.png)
+
+I en aquesta part final comprovo que els arxius creats abans estàn correctament exportats en la seva carpeta pertinent.
+
 ![imatge](/tasca_09/img/25.png)
 ![imatge](/tasca_09/img/26.png)
 
